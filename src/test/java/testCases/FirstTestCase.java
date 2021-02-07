@@ -11,8 +11,8 @@ import org.testng.annotations.Test;
 import org.testng.Reporter;
 import org.testng.annotations.*;
 
-import atu.testrecorder.ATUTestRecorder;
-import atu.testrecorder.exceptions.ATUTestRecorderException;
+//import atu.testrecorder.ATUTestRecorder;
+//import atu.testrecorder.exceptions.ATUTestRecorderException;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class FirstTestCase {	
@@ -101,7 +101,7 @@ public void doLogin() throws InterruptedException {
 	}		
 		
 		@AfterTest
-		public void tearDown() throws ATUTestRecorderException {
+		public void tearDown()  {
 			driver.close();
 //			recorder.stop();
 		}

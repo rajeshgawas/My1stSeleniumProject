@@ -2,6 +2,7 @@ package com.hailo.qa.testcases;
 
 import java.awt.AWTException;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.NoSuchElementException;
@@ -24,12 +25,13 @@ public class AddPromoItemTest extends TestBase {
 	LoginPage loginPage;
 	Dashboard dashboard;
 	PromoItemsPage promoitem;
+	private static Logger logger=Logger.getLogger(AddPromoItemTest.class.getName());
 
 	@BeforeMethod
 	public void setUp() throws InterruptedException {
 		initialization();
 		loginPage = new LoginPage();
-		loginPage.login(prop.getProperty("email"), prop.getProperty("password"));
+		loginPage.loginWithAdmin(prop.getProperty("admin_email"), prop.getProperty("admin_password"));
 		promoitem = new PromoItemsPage();
 	}
 

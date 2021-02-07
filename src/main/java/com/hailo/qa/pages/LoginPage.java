@@ -51,5 +51,21 @@ public class LoginPage extends TestBase {
 		Thread.sleep(5000);
 		return new Dashboard();
 	}
+	public Dashboard loginWithAdmin(String un, String pwd) throws InterruptedException {
+
+		email.sendKeys(un);
+		password.sendKeys(pwd);
+		loginBtn.click();
+		Thread.sleep(5000);
+		return new Dashboard();
+	}
+	public Dashboard loginWithCustomer(String un, String pwd) throws InterruptedException {
+
+		email.sendKeys(un);
+		password.sendKeys(pwd);
+		loginBtn.click();
+		Thread.sleep(5000);
+		return new Dashboard();
+	}
 
 }

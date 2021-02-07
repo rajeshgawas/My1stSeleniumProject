@@ -26,7 +26,7 @@ public class CustomersTest extends TestBase {
 //		if (!method.getName().equals("createNewStore")) {
 			initialization();
 			loginPage = new LoginPage();
-			loginPage.login(prop.getProperty("email"), prop.getProperty("password"));
+			loginPage.loginWithAdmin(prop.getProperty("admin_email"), prop.getProperty("admin_password"));
 			customers = new CustomersPage();
 //		}else
 			

@@ -1,0 +1,15 @@
+2021-02-07 23:27:39,588 [main] INFO com.hailo.qa.testcases.CustomerTest - ********Customer can Toggle store satus TC started*****************
+2021-02-07 23:27:39,592 [main] INFO com.hailo.qa.testcases.CustomerTest - ========Login with Customer User==============
+2021-02-07 23:27:41,595 [main] INFO com.hailo.qa.testcases.CustomerTest - ========Navigate to Store page==============
+2021-02-07 23:27:44,761 [main] INFO com.hailo.qa.testcases.CustomerTest - ========Navigate to Edit Store page==============
+2021-02-07 23:27:49,197 [main] INFO com.hailo.qa.testcases.CustomerTest - ========Change the status of the Store==============
+2021-02-07 23:33:08,556 [main] INFO com.hailo.qa.testcases.CustomerTest - ********Customer can Toggle store satus TC started*****************
+2021-02-07 23:33:08,560 [main] INFO com.hailo.qa.testcases.CustomerTest - ========Login with Customer User==============
+2021-02-07 23:33:10,562 [main] INFO com.hailo.qa.testcases.CustomerTest - ========Navigate to Store page==============
+2021-02-07 23:33:13,851 [main] INFO com.hailo.qa.testcases.CustomerTest - ========Navigate to Edit Store page==============
+2021-02-07 23:33:18,301 [main] INFO com.hailo.qa.testcases.CustomerTest - ========Change the status of the Store==============
+2021-02-07 23:36:43,256 [main] INFO com.hailo.qa.testcases.CustomerTest - ********Customer can Toggle store satus TC started*****************
+2021-02-07 23:36:43,264 [main] INFO com.hailo.qa.testcases.CustomerTest - ========Login with Customer User==============
+2021-02-07 23:36:45,267 [main] INFO com.hailo.qa.testcases.CustomerTest - ========Navigate to Store page==============
+2021-02-07 23:36:48,531 [main] INFO com.hailo.qa.testcases.CustomerTest - ========Navigate to Edit Store page==============
+2021-02-07 23:36:53,093 [main] INFO com.hailo.qa.testcases.CustomerTest - ========Change the status of the Store==============
