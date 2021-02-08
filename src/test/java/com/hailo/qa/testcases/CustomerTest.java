@@ -45,7 +45,7 @@ public class CustomerTest extends TestBase {
 
 	}
 
-	@Test(priority = 1)
+	@Test(priority = 2)
 	public void toggleUserStatus() throws InterruptedException {
 		
 		logger.info("********Customer can Toggle store satus TC started*****************");
@@ -73,9 +73,14 @@ public class CustomerTest extends TestBase {
 		customer.verifyStatusAfterToggle();
 		logger.info("********TC execution completed*****************");
 	}
-
-
-
+	@Test(priority = 1)
+	public void verifyLoggedinCustomer() throws InterruptedException {
+		logger.info("********Verify logged customer TC execution started*****************");
+		logger.info("========Navigate to my profile page==============");
+		customer.navigateToMyProfilePage();
+		customer.verifyLoginCustomer();
+		logger.info("********Verify logged customer TC execution completed*****************");
+	}
 	@AfterMethod
 	public void tearDown() {
 		driver.quit();

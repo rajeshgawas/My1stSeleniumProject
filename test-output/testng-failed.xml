@@ -5,8 +5,8 @@
     <classes>
       <class name="com.hailo.qa.testcases.CustomerTest">
         <methods>
+          <include name="verifyLoggedinCustomer"/>
           <include name="tearDown"/>
-          <include name="toggleUserStatus"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.hailo.qa.testcases.CustomerTest -->

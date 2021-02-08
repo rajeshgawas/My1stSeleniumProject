@@ -10,6 +10,8 @@ import com.hailo.qa.base.TestBase;
 
 public class CustomerPage extends TestBase {
 	
+	String customer_email=prop.getProperty("customer_email");
+	
 	@FindBy(xpath = "//div[@class='dropdown drp-user']")
 	WebElement my_profile_icon;
 	
@@ -105,6 +107,18 @@ public class CustomerPage extends TestBase {
 		else if (store_currentStatus.equals("Inactive")) {
 			Assert.assertTrue(store_status_after_toggle.equals("Active"));
 		}
+	}
+	public void navigateToMyProfilePage() throws InterruptedException {
+		my_profile_icon.click();
+		Thread.sleep(2000);
+		my_profile_option.click();
+		Thread.sleep(2000);		
+	}
+	public void verifyLoginCustomer() {
+		System.out.println("Logged in customer's email: "+customer_email);
+		String email=email_disable_txtField.getAttribute("value");
+		System.out.println("Email id: "+email);
+		Assert.assertEquals(email, customer_email,"Actual email does not matched with expected customer's email");
 	}
 
 }
