@@ -57,8 +57,12 @@ public class CustomerPage extends TestBase {
 		PageFactory.initElements(driver, this);
 	}
 	
-	public void navigateToStorePage() {
+	public void navigateToStorePage() throws InterruptedException {
 		my_store_main_menu.click();
+		Thread.sleep(2000);
+		my_store_sub_main.click();
+	}
+	public void navigateToStorePageFromSubMenu() {
 		my_store_sub_main.click();
 	}
 	

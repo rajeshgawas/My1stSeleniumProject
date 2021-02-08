@@ -69,6 +69,7 @@ public class CustomerTest extends TestBase {
 		Thread.sleep(2000);
 		customer.clickOnupdateStoreButton();
 		Thread.sleep(2000);
+		customer.navigateToStorePageFromSubMenu();
 		customer.verifyStatusAfterToggle();
 		logger.info("********TC execution completed*****************");
 	}
@@ -77,6 +78,6 @@ public class CustomerTest extends TestBase {
 
 	@AfterMethod
 	public void tearDown() {
-		//driver.quit();
+		driver.quit();
 	}
 }
