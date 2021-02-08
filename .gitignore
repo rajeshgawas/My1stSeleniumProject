@@ -1,5 +1,5 @@
-My_Screenshots
-TestResults
-logs
-test-output
-target
+/My_Screenshots/
+/TestResults/
+/logs/
+/test-output/
+/target/
