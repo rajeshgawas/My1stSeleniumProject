@@ -1,37 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29908" started-at="2021-02-08T16:00:10Z" finished-at="2021-02-08T16:00:40Z">
+  <suite name="Default suite" duration-ms="269615" started-at="2021-02-13T21:44:18Z" finished-at="2021-02-13T21:48:47Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29908" started-at="2021-02-08T16:00:10Z" finished-at="2021-02-08T16:00:40Z">
-      <class name="com.hailo.qa.testcases.CustomerTest">
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.hailo.qa.testcases.CustomerTest@49fc609f]" name="setUp" is-config="true" duration-ms="24702" started-at="2021-02-08T16:00:10Z" finished-at="2021-02-08T16:00:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.hailo.qa.testcases.CustomerTest.verifyLoggedinCustomer() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="269615" started-at="2021-02-13T21:44:18Z" finished-at="2021-02-13T21:48:47Z">
+      <class name="com.hailo.qa.testcases.ProductCategoriesTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hailo.qa.testcases.ProductCategoriesTest@5bda8e08]" name="setUp" is-config="true" duration-ms="27689" started-at="2021-02-13T21:44:18Z" finished-at="2021-02-13T21:44:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="verifyLoggedinCustomer()[pri:2, instance:com.hailo.qa.testcases.CustomerTest@49fc609f]" name="verifyLoggedinCustomer" duration-ms="4302" started-at="2021-02-08T16:00:34Z" finished-at="2021-02-08T16:00:39Z">
-          <exception class="java.lang.AssertionError">
+        <test-method status="PASS" signature="createNewSubcategory()[pri:2, instance:com.hailo.qa.testcases.ProductCategoriesTest@5bda8e08]" name="createNewSubcategory" duration-ms="7176" started-at="2021-02-13T21:44:45Z" finished-at="2021-02-13T21:44:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewSubcategory -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hailo.qa.testcases.ProductCategoriesTest@5bda8e08]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-02-13T21:44:52Z" finished-at="2021-02-13T21:44:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hailo.qa.testcases.ProductCategoriesTest@5bda8e08]" name="setUp" is-config="true" duration-ms="25366" started-at="2021-02-13T21:44:52Z" finished-at="2021-02-13T21:45:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="viewSubcategory()[pri:3, instance:com.hailo.qa.testcases.ProductCategoriesTest@5bda8e08]" name="viewSubcategory" duration-ms="8782" started-at="2021-02-13T21:45:18Z" finished-at="2021-02-13T21:45:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewSubcategory -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hailo.qa.testcases.ProductCategoriesTest@5bda8e08]" name="tearDown" is-config="true" duration-ms="1" started-at="2021-02-13T21:45:27Z" finished-at="2021-02-13T21:45:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hailo.qa.testcases.ProductCategoriesTest@5bda8e08]" name="setUp" is-config="true" duration-ms="25870" started-at="2021-02-13T21:45:27Z" finished-at="2021-02-13T21:45:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="updateSubcategory()[pri:4, instance:com.hailo.qa.testcases.ProductCategoriesTest@5bda8e08]" name="updateSubcategory" duration-ms="13380" started-at="2021-02-13T21:45:52Z" finished-at="2021-02-13T21:46:06Z">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
-              <![CDATA[Actual email does not matched with expected customer's email expected [abdcdd@mal.com] but found [neil2@mailinator.com]]]>
+              <![CDATA[element not interactable
+  (Session info: chrome=88.0.4324.150)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PGP87JA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57747}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 08c69d923e2429690c31c7af5f7d8c74]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Actual email does not matched with expected customer's email expected [abdcdd@mal.com] but found [neil2@mailinator.com]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:453)
-at com.hailo.qa.pages.CustomerPage.verifyLoginCustomer(CustomerPage.java:122)
-at com.hailo.qa.testcases.CustomerTest.verifyLoggedinCustomer(CustomerTest.java:79)
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=88.0.4324.150)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PGP87JA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57747}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 08c69d923e2429690c31c7af5f7d8c74
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy10.sendKeys(Unknown Source)
+at com.hailo.qa.pages.ProductCategoriesPage.editSubCategory(ProductCategoriesPage.java:212)
+at com.hailo.qa.testcases.ProductCategoriesTest.updateSubcategory(ProductCategoriesTest.java:70)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -59,15 +101,27 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLoggedinCustomer -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hailo.qa.testcases.CustomerTest@49fc609f]" name="tearDown" is-config="true" duration-ms="615" started-at="2021-02-08T16:00:39Z" finished-at="2021-02-08T16:00:40Z">
+        </test-method> <!-- updateSubcategory -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hailo.qa.testcases.ProductCategoriesTest@5bda8e08]" name="tearDown" is-config="true" duration-ms="1" started-at="2021-02-13T21:46:07Z" finished-at="2021-02-13T21:46:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.hailo.qa.testcases.CustomerTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hailo.qa.testcases.ProductCategoriesTest@5bda8e08]" name="setUp" is-config="true" duration-ms="22717" started-at="2021-02-13T21:46:07Z" finished-at="2021-02-13T21:46:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="deleteSubcategory()[pri:5, instance:com.hailo.qa.testcases.ProductCategoriesTest@5bda8e08]" name="deleteSubcategory" duration-ms="137965" started-at="2021-02-13T21:46:29Z" finished-at="2021-02-13T21:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteSubcategory -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hailo.qa.testcases.ProductCategoriesTest@5bda8e08]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-02-13T21:48:47Z" finished-at="2021-02-13T21:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hailo.qa.testcases.ProductCategoriesTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

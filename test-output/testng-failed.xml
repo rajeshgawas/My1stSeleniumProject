@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.hailo.qa.testcases.CustomerTest">
+      <class name="com.hailo.qa.testcases.ProductCategoriesTest">
         <methods>
-          <include name="verifyLoggedinCustomer"/>
+          <include name="updateSubcategory"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.hailo.qa.testcases.CustomerTest -->
+      </class> <!-- com.hailo.qa.testcases.ProductCategoriesTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
