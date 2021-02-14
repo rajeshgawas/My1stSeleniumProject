@@ -400,3 +400,44 @@
 2021-02-14 03:16:59,673 - com.hailo.qa.pages.ProductCategoriesPage -INFO - ==========Deleting lgxfolovw4_test123 sub category========
 2021-02-14 03:18:37,787 - com.hailo.qa.pages.ProductCategoriesPage -INFO - ==========Subcategory lgxfolovw4_test123 is deleted========
 2021-02-14 03:18:47,698 - com.hailo.qa.testcases.ProductCategoriesTest -INFO - ***********Delete subcategory test execution completed*************
+2021-02-14 10:07:58,756 - com.hailo.qa.testcases.ProductCategoriesTest -INFO - ***********Searching category test execution started*************
+2021-02-14 10:07:58,774 - com.hailo.qa.pages.ProductCategoriesPage -INFO - ==========Navigating to Product Categories page==========
+2021-02-14 10:08:01,313 - com.hailo.qa.pages.ProductCategoriesPage -INFO - ==========Navigating to Add new Product Categories modal pop up========
+2021-02-14 10:08:06,486 - com.hailo.qa.pages.ProductCategoriesPage -INFO - ==========Closing Add new Product Categories modal pop up========
+2021-02-14 10:08:07,656 - com.hailo.qa.pages.ProductCategoriesPage -INFO - ==========Closed Add new Product Categories modal pop up========
+2021-02-14 10:08:07,657 - com.hailo.qa.pages.ProductCategoriesPage -INFO - ==========Searching for Food category========
+2021-02-14 10:08:08,102 - com.hailo.qa.pages.ProductCategoriesPage -INFO - ==========Select the category========
+2021-02-14 10:08:08,297 - com.hailo.qa.testcases.ProductCategoriesTest -INFO - ***********Searching category test execution completed*************
+2021-02-14 10:08:37,804 - com.hailo.qa.testcases.ProductCategoriesTest -INFO - ***********Adding new subcategory test execution started*************
+2021-02-14 10:08:37,807 - com.hailo.qa.pages.ProductCategoriesPage -INFO - ==========Navigating to Product Categories page==========
+2021-02-14 10:08:40,325 - com.hailo.qa.pages.ProductCategoriesPage -INFO - ==========Searching for Food category========
+2021-02-14 10:08:40,619 - com.hailo.qa.pages.ProductCategoriesPage -INFO - ==========Select the category========
+2021-02-14 10:08:40,721 - com.hailo.qa.pages.ProductCategoriesPage -INFO - ==========Searching categories for food========
+2021-02-14 10:08:43,092 - com.hailo.qa.pages.ProductCategoriesPage -INFO - ==========Adding new subcategory========
+2021-02-14 10:08:45,751 - com.hailo.qa.pages.ProductCategoriesPage -INFO - ==========Searching for ks7gn1op52 sub category========
+2021-02-14 10:08:46,244 - com.hailo.qa.pages.ProductCategoriesPage -INFO - ==========Subcategory ks7gn1op52 is added========
+2021-02-14 10:08:46,395 - com.hailo.qa.testcases.ProductCategoriesTest -INFO - ***********Adding new subcategory test execution completed*************
+2021-02-14 10:09:13,497 - com.hailo.qa.testcases.ProductCategoriesTest -INFO - ***********View subcategory test execution started*************
+2021-02-14 10:09:13,502 - com.hailo.qa.pages.ProductCategoriesPage -INFO - ==========Navigating to Product Categories page==========
+2021-02-14 10:09:15,808 - com.hailo.qa.pages.ProductCategoriesPage -INFO - ==========Searching for Food category========
+2021-02-14 10:09:16,025 - com.hailo.qa.pages.ProductCategoriesPage -INFO - ==========Select the category========
+2021-02-14 10:09:16,120 - com.hailo.qa.pages.ProductCategoriesPage -INFO - ==========Viewing the ks7gn1op52 sub category========
+2021-02-14 10:09:16,121 - com.hailo.qa.pages.ProductCategoriesPage -INFO - ==========Searching for ks7gn1op52 sub category========
+2021-02-14 10:09:22,675 - com.hailo.qa.testcases.ProductCategoriesTest -INFO - ***********View subcategory test execution completed*************
+2021-02-14 10:09:48,719 - com.hailo.qa.testcases.ProductCategoriesTest -INFO - ***********Edit subcategory test execution started*************
+2021-02-14 10:09:48,721 - com.hailo.qa.pages.ProductCategoriesPage -INFO - ==========Navigating to Product Categories page==========
+2021-02-14 10:09:51,022 - com.hailo.qa.pages.ProductCategoriesPage -INFO - ==========Searching for Food category========
+2021-02-14 10:09:51,153 - com.hailo.qa.pages.ProductCategoriesPage -INFO - ==========Select the category========
+2021-02-14 10:09:51,225 - com.hailo.qa.pages.ProductCategoriesPage -INFO - ==========Searching the ks7gn1op52 sub category========
+2021-02-14 10:09:51,225 - com.hailo.qa.pages.ProductCategoriesPage -INFO - ==========Searching for ks7gn1op52 sub category========
+2021-02-14 10:09:53,361 - com.hailo.qa.pages.ProductCategoriesPage -INFO - ==========Navigating to edit ks7gn1op52 sub category========
+2021-02-14 10:10:06,495 - com.hailo.qa.pages.ProductCategoriesPage -INFO - ==========Subcategory ks7gn1op52 is updated to ks7gn1op52_test123========
+2021-02-14 10:10:06,496 - com.hailo.qa.testcases.ProductCategoriesTest -INFO - ***********Edit subcategory test execution completed*************
+2021-02-14 10:10:33,983 - com.hailo.qa.testcases.ProductCategoriesTest -INFO - ***********Delete subcategory test execution started*************
+2021-02-14 10:10:33,993 - com.hailo.qa.pages.ProductCategoriesPage -INFO - ==========Navigating to Product Categories page==========
+2021-02-14 10:10:36,643 - com.hailo.qa.pages.ProductCategoriesPage -INFO - ==========Searching for Food category========
+2021-02-14 10:10:36,937 - com.hailo.qa.pages.ProductCategoriesPage -INFO - ==========Select the category========
+2021-02-14 10:10:37,088 - com.hailo.qa.pages.ProductCategoriesPage -INFO - ==========Searching the ks7gn1op52_test123 sub category========
+2021-02-14 10:10:37,372 - com.hailo.qa.pages.ProductCategoriesPage -INFO - ==========Deleting ks7gn1op52_test123 sub category========
+2021-02-14 10:10:58,635 - com.hailo.qa.pages.ProductCategoriesPage -INFO - ==========Subcategory ks7gn1op52_test123 is deleted========
+2021-02-14 10:10:58,636 - com.hailo.qa.testcases.ProductCategoriesTest -INFO - ***********Delete subcategory test execution completed*************

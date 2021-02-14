@@ -33,7 +33,7 @@ public class ProductCategoriesTest extends TestBase {
 		productCat= new ProductCategoriesPage();
 	}
 
-	//@Test(priority = 1)
+	@Test(priority = 1)
 	public void doSearchAndOpenProductCategory() throws InterruptedException {
 		logger.info("***********Searching category test execution started*************");
 		dashboard = new Dashboard();
@@ -82,6 +82,6 @@ public class ProductCategoriesTest extends TestBase {
 
 	@AfterMethod
 	public void tearDown() {
-		//driver.quit();
+		driver.quit();
 	}
 }
