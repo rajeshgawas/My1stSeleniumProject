@@ -1,73 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="210698" started-at="2021-02-14T04:37:27Z" finished-at="2021-02-14T04:40:58Z">
+  <suite name="Default suite" duration-ms="269424" started-at="2021-02-19T20:52:39Z" finished-at="2021-02-19T20:57:08Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="210698" started-at="2021-02-14T04:37:27Z" finished-at="2021-02-14T04:40:58Z">
-      <class name="com.hailo.qa.testcases.ProductCategoriesTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hailo.qa.testcases.ProductCategoriesTest@49fc609f]" name="setUp" is-config="true" duration-ms="30772" started-at="2021-02-14T04:37:27Z" finished-at="2021-02-14T04:37:58Z">
+    <test name="Default test" duration-ms="269424" started-at="2021-02-19T20:52:39Z" finished-at="2021-02-19T20:57:08Z">
+      <class name="com.hailo.qa.testcases.AddSupplierTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hailo.qa.testcases.AddSupplierTest@5bda8e08]" name="setUp" is-config="true" duration-ms="23349" started-at="2021-02-19T20:52:39Z" finished-at="2021-02-19T20:53:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="doSearchAndOpenProductCategory()[pri:1, instance:com.hailo.qa.testcases.ProductCategoriesTest@49fc609f]" name="doSearchAndOpenProductCategory" duration-ms="9558" started-at="2021-02-14T04:37:58Z" finished-at="2021-02-14T04:38:08Z">
+        <test-method status="PASS" signature="createNewSupplierTest()[pri:1, instance:com.hailo.qa.testcases.AddSupplierTest@5bda8e08]" name="createNewSupplierTest" duration-ms="27519" started-at="2021-02-19T20:53:02Z" finished-at="2021-02-19T20:53:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- doSearchAndOpenProductCategory -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hailo.qa.testcases.ProductCategoriesTest@49fc609f]" name="tearDown" is-config="true" duration-ms="1" started-at="2021-02-14T04:38:08Z" finished-at="2021-02-14T04:38:08Z">
+        </test-method> <!-- createNewSupplierTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hailo.qa.testcases.AddSupplierTest@5bda8e08]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-02-19T20:53:30Z" finished-at="2021-02-19T20:53:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hailo.qa.testcases.ProductCategoriesTest@49fc609f]" name="setUp" is-config="true" duration-ms="29494" started-at="2021-02-14T04:38:08Z" finished-at="2021-02-14T04:38:37Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hailo.qa.testcases.AddSupplierTest@5bda8e08]" name="setUp" is-config="true" duration-ms="29171" started-at="2021-02-19T20:53:30Z" finished-at="2021-02-19T20:53:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="createNewSubcategory()[pri:2, instance:com.hailo.qa.testcases.ProductCategoriesTest@49fc609f]" name="createNewSubcategory" duration-ms="8594" started-at="2021-02-14T04:38:37Z" finished-at="2021-02-14T04:38:46Z">
+        <test-method status="PASS" signature="addNewSupplierLocationTest()[pri:2, instance:com.hailo.qa.testcases.AddSupplierTest@5bda8e08]" name="addNewSupplierLocationTest" duration-ms="20349" started-at="2021-02-19T20:53:59Z" finished-at="2021-02-19T20:54:19Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createNewSubcategory -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hailo.qa.testcases.ProductCategoriesTest@49fc609f]" name="tearDown" is-config="true" duration-ms="1" started-at="2021-02-14T04:38:46Z" finished-at="2021-02-14T04:38:46Z">
+        </test-method> <!-- addNewSupplierLocationTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hailo.qa.testcases.AddSupplierTest@5bda8e08]" name="tearDown" is-config="true" duration-ms="1" started-at="2021-02-19T20:54:19Z" finished-at="2021-02-19T20:54:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hailo.qa.testcases.ProductCategoriesTest@49fc609f]" name="setUp" is-config="true" duration-ms="27093" started-at="2021-02-14T04:38:46Z" finished-at="2021-02-14T04:39:13Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hailo.qa.testcases.AddSupplierTest@5bda8e08]" name="setUp" is-config="true" duration-ms="23339" started-at="2021-02-19T20:54:19Z" finished-at="2021-02-19T20:54:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="viewSubcategory()[pri:3, instance:com.hailo.qa.testcases.ProductCategoriesTest@49fc609f]" name="viewSubcategory" duration-ms="9180" started-at="2021-02-14T04:39:13Z" finished-at="2021-02-14T04:39:22Z">
+        <test-method status="PASS" signature="editNewSupplierLocationTest()[pri:3, instance:com.hailo.qa.testcases.AddSupplierTest@5bda8e08]" name="editNewSupplierLocationTest" duration-ms="29993" started-at="2021-02-19T20:54:43Z" finished-at="2021-02-19T20:55:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- viewSubcategory -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hailo.qa.testcases.ProductCategoriesTest@49fc609f]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-02-14T04:39:22Z" finished-at="2021-02-14T04:39:22Z">
+        </test-method> <!-- editNewSupplierLocationTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hailo.qa.testcases.AddSupplierTest@5bda8e08]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-02-19T20:55:13Z" finished-at="2021-02-19T20:55:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hailo.qa.testcases.ProductCategoriesTest@49fc609f]" name="setUp" is-config="true" duration-ms="26039" started-at="2021-02-14T04:39:22Z" finished-at="2021-02-14T04:39:48Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hailo.qa.testcases.AddSupplierTest@5bda8e08]" name="setUp" is-config="true" duration-ms="23817" started-at="2021-02-19T20:55:13Z" finished-at="2021-02-19T20:55:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="updateSubcategory()[pri:4, instance:com.hailo.qa.testcases.ProductCategoriesTest@49fc609f]" name="updateSubcategory" duration-ms="17781" started-at="2021-02-14T04:39:48Z" finished-at="2021-02-14T04:40:06Z">
+        <test-method status="PASS" signature="deleteSupplierLocationTest()[pri:4, instance:com.hailo.qa.testcases.AddSupplierTest@5bda8e08]" name="deleteSupplierLocationTest" duration-ms="91843" started-at="2021-02-19T20:55:36Z" finished-at="2021-02-19T20:57:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- updateSubcategory -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hailo.qa.testcases.ProductCategoriesTest@49fc609f]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-02-14T04:40:06Z" finished-at="2021-02-14T04:40:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hailo.qa.testcases.ProductCategoriesTest@49fc609f]" name="setUp" is-config="true" duration-ms="27478" started-at="2021-02-14T04:40:06Z" finished-at="2021-02-14T04:40:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="deleteSubcategory()[pri:5, instance:com.hailo.qa.testcases.ProductCategoriesTest@49fc609f]" name="deleteSubcategory" duration-ms="24659" started-at="2021-02-14T04:40:33Z" finished-at="2021-02-14T04:40:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteSubcategory -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hailo.qa.testcases.ProductCategoriesTest@49fc609f]" name="tearDown" is-config="true" duration-ms="1" started-at="2021-02-14T04:40:58Z" finished-at="2021-02-14T04:40:58Z">
+        </test-method> <!-- deleteSupplierLocationTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hailo.qa.testcases.AddSupplierTest@5bda8e08]" name="tearDown" is-config="true" duration-ms="1" started-at="2021-02-19T20:57:08Z" finished-at="2021-02-19T20:57:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.hailo.qa.testcases.ProductCategoriesTest -->
+      </class> <!-- com.hailo.qa.testcases.AddSupplierTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
