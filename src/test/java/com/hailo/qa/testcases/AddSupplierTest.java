@@ -23,7 +23,7 @@ public class AddSupplierTest extends TestBase {
 	LoginPage loginPage;
 	Dashboard dashboard;
 	SuppliersPage suppliersPage;
-	private static Logger logger=Logger.getLogger(CustomersTest.class.getName());
+	private static Logger logger = Logger.getLogger(CustomersTest.class.getName());
 
 	@BeforeMethod
 	public void setUp() throws InterruptedException {
@@ -42,7 +42,7 @@ public class AddSupplierTest extends TestBase {
 		Thread.sleep(2000);
 		logger.info("==============Entering Supplier details===========");
 		suppliersPage.enterSupplierName();
-		suppliersPage.enterSupplierFirstName()	;
+		suppliersPage.enterSupplierFirstName();
 		suppliersPage.enterSupplierLastName();
 		suppliersPage.enterEmail();
 		suppliersPage.enterSupplierContact();
@@ -59,53 +59,83 @@ public class AddSupplierTest extends TestBase {
 		logger.info("==============Supplier is added successfully===========");
 		logger.info("*******************Add new supplier test executon completed******************");
 	}
-		
-//		@Test(priority = 2)
-//		public void searchSupplier () throws InterruptedException{
-//			logger.info("*******************Search supplier test executon started******************");
-//			dashboard = new Dashboard();
-//			dashboard.clickonAdminMenu();
-//			suppliersPage.searchSupplier();
-//			Thread.sleep(1000);	
-//			logger.info("*******************Search supplier test executon completed******************");
-//		}
-//		@Test(priority = 3)
-//		public void viewSupplierLocationTest () throws InterruptedException{
-//			logger.info("*******************View supplier location test executon started******************");
-//			dashboard = new Dashboard();
-//			dashboard.clickonAdminMenu();
-//			suppliersPage.viewSupplierLocation();
-//			Thread.sleep(1000);	
-//			logger.info("*******************View supplier test executon completed******************");
-//		}
-		
-		@Test(priority=2)
-		public void addNewSupplierLocationTest() throws InterruptedException, AWTException {
-			logger.info("*******************Add supplier location test executon started******************");
-			dashboard = new Dashboard();
-			dashboard.clickonAdminMenu();
-			suppliersPage.addSupplierLocation();
-			logger.info("*******************Add supplier location test executon completed******************");
-		}
-		@Test(priority=3)
-		public void editNewSupplierLocationTest() throws InterruptedException, AWTException {
-			logger.info("*******************Edit supplier location test executon started******************");
-			dashboard = new Dashboard();
-			dashboard.clickonAdminMenu();
-			suppliersPage.updateSupplierLocationDetails();;
-			logger.info("*******************Edit supplier location test executon completed******************");
-		}
-		@Test(priority=4)
-		public void deleteSupplierLocationTest() throws InterruptedException, AWTException {
-			logger.info("*******************Delete supplier location test executon started******************");
-			dashboard = new Dashboard();
-			dashboard.clickonAdminMenu();
-			suppliersPage.deleteSupplierLocation();
-			logger.info("*******************Delete supplier location test executon completed******************");
-		}	
+
+	@Test(priority = 2)
+	public void searchSupplierTest() throws InterruptedException {
+		logger.info("*******************Search supplier test executon started******************");
+		dashboard = new Dashboard();
+		dashboard.clickonAdminMenu();
+		suppliersPage.verifySupplierIsAdded();
+		Thread.sleep(1000);
+		logger.info("*******************Search supplier test executon completed******************");
+	}
+	@Test(priority = 3)
+	public void viewSupplierTest() throws InterruptedException, AWTException {
+		logger.info("*******************View supplier test executon started******************");
+		dashboard = new Dashboard();
+		dashboard.clickonAdminMenu();
+		suppliersPage.viewSupplier();
+		logger.info("*******************View supplier test executon completed******************");
+	}
+	@Test(priority = 4)
+	public void editSupplierTest() throws InterruptedException, AWTException {
+		logger.info("*******************Edit supplier test executon started******************");
+		dashboard = new Dashboard();
+		dashboard.clickonAdminMenu();
+		suppliersPage.updateSupplier();
+		logger.info("*******************Edit supplier test executon completed******************");
+	}
+
+	@Test(priority = 5)
+	public void addNewSupplierLocationTest() throws InterruptedException, AWTException {
+		logger.info("*******************Add supplier location test executon started******************");
+		dashboard = new Dashboard();
+		dashboard.clickonAdminMenu();
+		suppliersPage.addSupplierLocation();
+		logger.info("*******************Add supplier location test executon completed******************");
+	}
+
+	@Test(priority = 6)
+	public void viewSupplierLocationTest() throws InterruptedException {
+		logger.info("*******************View supplier location test executon started******************");
+		dashboard = new Dashboard();
+		dashboard.clickonAdminMenu();
+		suppliersPage.viewSupplierLocation();
+		Thread.sleep(1000);
+		logger.info("*******************View supplier test executon completed******************");
+	}
+
+
+	@Test(priority = 7)
+	public void editNewSupplierLocationTest() throws InterruptedException, AWTException {
+		logger.info("*******************Edit supplier location test executon started******************");
+		dashboard = new Dashboard();
+		dashboard.clickonAdminMenu();
+		suppliersPage.updateSupplierLocationDetails();
+		;
+		logger.info("*******************Edit supplier location test executon completed******************");
+	}
+
+	@Test(priority = 8)
+	public void deleteSupplierLocationTest() throws InterruptedException, AWTException {
+		logger.info("*******************Delete supplier location test executon started******************");
+		dashboard = new Dashboard();
+		dashboard.clickonAdminMenu();
+		suppliersPage.deleteSupplierLocation();
+		logger.info("*******************Delete supplier location test executon completed******************");
+	}
+
+	@Test(priority = 9)
+	public void deleteSupplierTest() throws InterruptedException, AWTException {
+		logger.info("*******************Delete supplier test executon started******************");
+		dashboard = new Dashboard();
+		dashboard.clickonAdminMenu();
+		suppliersPage.deleteSupplier();
+		logger.info("*******************Delete supplier test executon completed******************");
+	}
 
 	@AfterMethod
 	public void tearDown() {
-		//driver.quit();
+		driver.quit();
 	}
 }

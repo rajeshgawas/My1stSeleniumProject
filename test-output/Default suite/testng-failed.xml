@@ -5,8 +5,8 @@
     <classes>
       <class name="com.hailo.qa.testcases.AddSupplierTest">
         <methods>
-          <include name="deleteSupplierLocationTest"/>
           <include name="setUp"/>
+          <include name="deleteSupplierTest"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.hailo.qa.testcases.AddSupplierTest -->

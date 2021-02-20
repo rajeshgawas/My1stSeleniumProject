@@ -1,57 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="269424" started-at="2021-02-19T20:52:39Z" finished-at="2021-02-19T20:57:08Z">
+  <suite name="Default suite" duration-ms="680952" started-at="2021-02-20T08:12:50Z" finished-at="2021-02-20T08:24:11Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="269424" started-at="2021-02-19T20:52:39Z" finished-at="2021-02-19T20:57:08Z">
+    <test name="Default test" duration-ms="680952" started-at="2021-02-20T08:12:50Z" finished-at="2021-02-20T08:24:11Z">
       <class name="com.hailo.qa.testcases.AddSupplierTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hailo.qa.testcases.AddSupplierTest@5bda8e08]" name="setUp" is-config="true" duration-ms="23349" started-at="2021-02-19T20:52:39Z" finished-at="2021-02-19T20:53:02Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hailo.qa.testcases.AddSupplierTest@cd2dae5]" name="setUp" is-config="true" duration-ms="51643" started-at="2021-02-20T08:12:50Z" finished-at="2021-02-20T08:13:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="createNewSupplierTest()[pri:1, instance:com.hailo.qa.testcases.AddSupplierTest@5bda8e08]" name="createNewSupplierTest" duration-ms="27519" started-at="2021-02-19T20:53:02Z" finished-at="2021-02-19T20:53:30Z">
+        <test-method status="PASS" signature="createNewSupplierTest()[pri:1, instance:com.hailo.qa.testcases.AddSupplierTest@cd2dae5]" name="createNewSupplierTest" duration-ms="27476" started-at="2021-02-20T08:13:42Z" finished-at="2021-02-20T08:14:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewSupplierTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hailo.qa.testcases.AddSupplierTest@5bda8e08]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-02-19T20:53:30Z" finished-at="2021-02-19T20:53:30Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hailo.qa.testcases.AddSupplierTest@cd2dae5]" name="tearDown" is-config="true" duration-ms="671" started-at="2021-02-20T08:14:09Z" finished-at="2021-02-20T08:14:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hailo.qa.testcases.AddSupplierTest@5bda8e08]" name="setUp" is-config="true" duration-ms="29171" started-at="2021-02-19T20:53:30Z" finished-at="2021-02-19T20:53:59Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hailo.qa.testcases.AddSupplierTest@cd2dae5]" name="setUp" is-config="true" duration-ms="44786" started-at="2021-02-20T08:14:10Z" finished-at="2021-02-20T08:14:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="addNewSupplierLocationTest()[pri:2, instance:com.hailo.qa.testcases.AddSupplierTest@5bda8e08]" name="addNewSupplierLocationTest" duration-ms="20349" started-at="2021-02-19T20:53:59Z" finished-at="2021-02-19T20:54:19Z">
+        <test-method status="PASS" signature="searchSupplierTest()[pri:2, instance:com.hailo.qa.testcases.AddSupplierTest@cd2dae5]" name="searchSupplierTest" duration-ms="7444" started-at="2021-02-20T08:14:55Z" finished-at="2021-02-20T08:15:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchSupplierTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hailo.qa.testcases.AddSupplierTest@cd2dae5]" name="tearDown" is-config="true" duration-ms="675" started-at="2021-02-20T08:15:02Z" finished-at="2021-02-20T08:15:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hailo.qa.testcases.AddSupplierTest@cd2dae5]" name="setUp" is-config="true" duration-ms="45670" started-at="2021-02-20T08:15:03Z" finished-at="2021-02-20T08:15:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="viewSupplierTest()[pri:3, instance:com.hailo.qa.testcases.AddSupplierTest@cd2dae5]" name="viewSupplierTest" duration-ms="15222" started-at="2021-02-20T08:15:49Z" finished-at="2021-02-20T08:16:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewSupplierTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hailo.qa.testcases.AddSupplierTest@cd2dae5]" name="tearDown" is-config="true" duration-ms="598" started-at="2021-02-20T08:16:04Z" finished-at="2021-02-20T08:16:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hailo.qa.testcases.AddSupplierTest@cd2dae5]" name="setUp" is-config="true" duration-ms="57988" started-at="2021-02-20T08:16:04Z" finished-at="2021-02-20T08:17:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="editSupplierTest()[pri:4, instance:com.hailo.qa.testcases.AddSupplierTest@cd2dae5]" name="editSupplierTest" duration-ms="35318" started-at="2021-02-20T08:17:02Z" finished-at="2021-02-20T08:17:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editSupplierTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hailo.qa.testcases.AddSupplierTest@cd2dae5]" name="tearDown" is-config="true" duration-ms="672" started-at="2021-02-20T08:17:38Z" finished-at="2021-02-20T08:17:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hailo.qa.testcases.AddSupplierTest@cd2dae5]" name="setUp" is-config="true" duration-ms="56857" started-at="2021-02-20T08:17:38Z" finished-at="2021-02-20T08:18:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addNewSupplierLocationTest()[pri:5, instance:com.hailo.qa.testcases.AddSupplierTest@cd2dae5]" name="addNewSupplierLocationTest" duration-ms="17659" started-at="2021-02-20T08:18:35Z" finished-at="2021-02-20T08:18:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewSupplierLocationTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hailo.qa.testcases.AddSupplierTest@5bda8e08]" name="tearDown" is-config="true" duration-ms="1" started-at="2021-02-19T20:54:19Z" finished-at="2021-02-19T20:54:19Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hailo.qa.testcases.AddSupplierTest@cd2dae5]" name="tearDown" is-config="true" duration-ms="663" started-at="2021-02-20T08:18:53Z" finished-at="2021-02-20T08:18:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hailo.qa.testcases.AddSupplierTest@5bda8e08]" name="setUp" is-config="true" duration-ms="23339" started-at="2021-02-19T20:54:19Z" finished-at="2021-02-19T20:54:43Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hailo.qa.testcases.AddSupplierTest@cd2dae5]" name="setUp" is-config="true" duration-ms="51759" started-at="2021-02-20T08:18:54Z" finished-at="2021-02-20T08:19:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="editNewSupplierLocationTest()[pri:3, instance:com.hailo.qa.testcases.AddSupplierTest@5bda8e08]" name="editNewSupplierLocationTest" duration-ms="29993" started-at="2021-02-19T20:54:43Z" finished-at="2021-02-19T20:55:13Z">
+        <test-method status="PASS" signature="viewSupplierLocationTest()[pri:6, instance:com.hailo.qa.testcases.AddSupplierTest@cd2dae5]" name="viewSupplierLocationTest" duration-ms="17358" started-at="2021-02-20T08:19:45Z" finished-at="2021-02-20T08:20:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewSupplierLocationTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hailo.qa.testcases.AddSupplierTest@cd2dae5]" name="tearDown" is-config="true" duration-ms="673" started-at="2021-02-20T08:20:03Z" finished-at="2021-02-20T08:20:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hailo.qa.testcases.AddSupplierTest@cd2dae5]" name="setUp" is-config="true" duration-ms="46391" started-at="2021-02-20T08:20:03Z" finished-at="2021-02-20T08:20:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="editNewSupplierLocationTest()[pri:7, instance:com.hailo.qa.testcases.AddSupplierTest@cd2dae5]" name="editNewSupplierLocationTest" duration-ms="46886" started-at="2021-02-20T08:20:50Z" finished-at="2021-02-20T08:21:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editNewSupplierLocationTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hailo.qa.testcases.AddSupplierTest@5bda8e08]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-02-19T20:55:13Z" finished-at="2021-02-19T20:55:13Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hailo.qa.testcases.AddSupplierTest@cd2dae5]" name="tearDown" is-config="true" duration-ms="621" started-at="2021-02-20T08:21:37Z" finished-at="2021-02-20T08:21:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hailo.qa.testcases.AddSupplierTest@5bda8e08]" name="setUp" is-config="true" duration-ms="23817" started-at="2021-02-19T20:55:13Z" finished-at="2021-02-19T20:55:36Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hailo.qa.testcases.AddSupplierTest@cd2dae5]" name="setUp" is-config="true" duration-ms="55649" started-at="2021-02-20T08:21:37Z" finished-at="2021-02-20T08:22:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="deleteSupplierLocationTest()[pri:4, instance:com.hailo.qa.testcases.AddSupplierTest@5bda8e08]" name="deleteSupplierLocationTest" duration-ms="91843" started-at="2021-02-19T20:55:36Z" finished-at="2021-02-19T20:57:08Z">
+        <test-method status="PASS" signature="deleteSupplierLocationTest()[pri:8, instance:com.hailo.qa.testcases.AddSupplierTest@cd2dae5]" name="deleteSupplierLocationTest" duration-ms="16412" started-at="2021-02-20T08:22:33Z" finished-at="2021-02-20T08:22:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteSupplierLocationTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hailo.qa.testcases.AddSupplierTest@5bda8e08]" name="tearDown" is-config="true" duration-ms="1" started-at="2021-02-19T20:57:08Z" finished-at="2021-02-19T20:57:08Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hailo.qa.testcases.AddSupplierTest@cd2dae5]" name="tearDown" is-config="true" duration-ms="615" started-at="2021-02-20T08:22:49Z" finished-at="2021-02-20T08:22:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hailo.qa.testcases.AddSupplierTest@cd2dae5]" name="setUp" is-config="true" duration-ms="48954" started-at="2021-02-20T08:22:50Z" finished-at="2021-02-20T08:23:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="deleteSupplierTest()[pri:9, instance:com.hailo.qa.testcases.AddSupplierTest@cd2dae5]" name="deleteSupplierTest" duration-ms="31566" started-at="2021-02-20T08:23:39Z" finished-at="2021-02-20T08:24:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteSupplierTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hailo.qa.testcases.AddSupplierTest@cd2dae5]" name="tearDown" is-config="true" duration-ms="677" started-at="2021-02-20T08:24:10Z" finished-at="2021-02-20T08:24:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

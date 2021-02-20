@@ -93,11 +93,11 @@ public class SuppliersPage extends TestBase {
 	@FindBy(xpath = "//img[@src='4e8dd8987bb3b3508a60e4fc1963709e.png']")
 	WebElement supplierCardAssist_button;
 
-	@FindBy(xpath = "//span[@class='mdi mdi-20px mdi-eye mr-2']")
+	@FindBy(xpath = "//div[@class='dropdown-menu dropdown-menu-right show']//a[text()='View']")
 	WebElement supplierCardView_button;
 
 	@FindBy(xpath = "//h4[@class='modal-title']")
-	WebElement supplierViewWindow_title;
+	WebElement supplierAddViewEditDeleteWindow_title;
 
 	@FindBy(xpath = "//img[@style='padding-top: 5px; cursor: pointer;']")
 	WebElement supplierViewWinClose_button;
@@ -182,6 +182,21 @@ public class SuppliersPage extends TestBase {
 	
 	@FindBy(xpath = "//button[contains(text(),'Delete')]")
 	WebElement deleteSupplierLoc_Confirm_dialogue_Delete_button;
+	
+	@FindBy(xpath = "//div[@class='dropdown-menu dropdown-menu-right show']//a[text()='Edit']")
+	WebElement supplierCardEdit_button;
+
+	@FindBy(xpath = "//img[@style='padding-top: 5px; cursor: pointer;']")
+	WebElement supplierEditWinClose_button;
+	
+	@FindBy(xpath = "//button[contains(text(),'Update')]")
+	WebElement editSupplier_button;
+	
+	@FindBy(xpath = "//div[@class='dropdown-menu dropdown-menu-right show']//a[text()='Delete']")
+	WebElement supplierCardDelete_button;
+	
+	@FindBy(xpath = "//button[contains(text(),'Delete')]")
+	WebElement deleteSupplierConfirmWindow_button;
 
 	public SuppliersPage() {
 		PageFactory.initElements(driver, this);
@@ -191,7 +206,8 @@ public class SuppliersPage extends TestBase {
 	// Actions
 	public void openAddSupplierWindow() throws InterruptedException {
 		logger.info("==============Navigating to Supplier page===========");
-		suppliers_menu.click();
+		suppliers_menu.click();logger.info("==============Navigating to Add Supplier page===========");
+		
 		add_supplier_button.click();
 		Thread.sleep(2000);
 		String winTitle = supplier_window_title.getText();
@@ -253,8 +269,10 @@ public class SuppliersPage extends TestBase {
 	}
 	public void verifySupplierIsAdded() throws InterruptedException {
 		logger.info("==============Searching for Supplier===========");
+		suppliers_menu.click();
+		Thread.sleep(1000);
 		supplier_search_field.sendKeys(supplierEmail);
-		Thread.sleep(4000);
+		Thread.sleep(3000);
 		List<WebElement> supplierList=driver.findElements(By.xpath("//div[@class='card']/div[@class='tabNameList card-body']/div/div[1]"));
 		System.out.println("Number of suppliers: "+supplierList.size());
 		Thread.sleep(2000);
@@ -268,30 +286,149 @@ public class SuppliersPage extends TestBase {
 	}
 
 	
-	public void deleteSupplier() throws InterruptedException {
+	public void viewSupplier() throws InterruptedException {
 		suppliers_menu.click();
 		Thread.sleep(2000);
 		verifySupplierIsAdded();
 		Thread.sleep(2000);
-		
+		logger.info("==============Navigating to view Supplier page===========");
+		supplierCardAssist_button.click();
 		Thread.sleep(2000);
+		supplierCardView_button.click();
+		Thread.sleep(2000);
+		String viewSupplierDialogue_header=supplierAddViewEditDeleteWindow_title.getText();
+		System.out.println("Header title for view supplier dialogue window: "+viewSupplierDialogue_header);
+		if(viewSupplierDialogue_header.contains("View")) {
+			Assert.assertTrue(true);
+		}
+		else {
+			Assert.assertTrue(false);
+		}
+		String emailValueOnViewSupplier_window=supplieremail_text_field.getAttribute("value").toLowerCase();
+		System.out.println("Email id on view supplier window: "+emailValueOnViewSupplier_window);
+		if(emailValueOnViewSupplier_window.equals(supplierEmail)) {
+			Assert.assertTrue(true);
+		}
+		else {
+			Assert.assertTrue(false);
+		}
+		
 	}
-	
+	public void updateSupplier() throws InterruptedException {
+		suppliers_menu.click();
+		Thread.sleep(2000);
+		verifySupplierIsAdded();
+		Thread.sleep(2000);
+		logger.info("==============Navigating to Edit Supplier page===========");
+		supplierCardAssist_button.click();
+		Thread.sleep(2000);
+		supplierCardEdit_button.click();
+		Thread.sleep(2000);
+		String editSupplierDialogue_header=supplierAddViewEditDeleteWindow_title.getText();
+		System.out.println("Header title for Edit supplier dialogue window: "+editSupplierDialogue_header);
+		if(editSupplierDialogue_header.contains("Edit")) {
+			Assert.assertTrue(true);
+		}
+		else {
+			Assert.assertTrue(false);
+		}
+		String supplierNewName=suppliername_text_field.getAttribute("value")+"_Edit";
+		String supplierNewFirstName=supplierfirstname_text_field.getAttribute("value")+"_Edit";
+		String supplierNewLastName=supplierlastname_text_field.getAttribute("value")+"_Edit";
+		
+		suppliername_text_field.clear();
+		Thread.sleep(2000);
+		suppliername_text_field.sendKeys(supplierNewName);
+		
+		supplierfirstname_text_field.clear();
+		Thread.sleep(2000);
+		supplierfirstname_text_field.sendKeys(supplierNewFirstName);
+		
+		supplierlastname_text_field.clear();
+		Thread.sleep(2000);
+		supplierlastname_text_field.sendKeys(supplierNewLastName);		
+		editSupplier_button.click();
+		Thread.sleep(2000);
+		supplier_search_field.clear();
+		Thread.sleep(2000);
+		supplier_search_field.sendKeys(supplierEmail);
+		Thread.sleep(2000);
+		List<WebElement> supplierList=driver.findElements(By.xpath("//div[@class='card']/div[@class='tabNameList card-body']/div/div[1]"));
+		System.out.println("Number of suppliers: "+supplierList.size());
+		Thread.sleep(2000);
+		if(supplierList.size()==1) {
+			Assert.assertTrue(true);
+		}
+		else {
+			Assert.assertTrue(false);
+		}
+		supplierCardAssist_button.click();
+		Thread.sleep(2000);
+		supplierCardView_button.click();
+		Thread.sleep(2000);
+		String viewSupplierDialogue_header=supplierAddViewEditDeleteWindow_title.getText();
+		System.out.println("Header title for view supplier dialogue window: "+viewSupplierDialogue_header);
+		if(viewSupplierDialogue_header.contains("View")) {
+			Assert.assertTrue(true);
+		}
+		else {
+			Assert.assertTrue(false);
+		}
+		String viewSupplierWindow_supplierNameAfterEdit=suppliername_text_field.getAttribute("value");
+		String viewSupplierWindow_supplierFirstNameAfterEdit=supplierfirstname_text_field.getAttribute("value");
+		String viewSupplierWindow_supplierLastNameAfterEdit=supplierlastname_text_field.getAttribute("value");
+		System.out.println("Supplier Name after Edit: "+viewSupplierWindow_supplierNameAfterEdit);
+		System.out.println("Supplier First Name after Edit: "+viewSupplierWindow_supplierFirstNameAfterEdit);
+		System.out.println("Supplier Last Name after Edit: "+viewSupplierWindow_supplierLastNameAfterEdit);
+		if(viewSupplierWindow_supplierNameAfterEdit.equalsIgnoreCase(supplierNewName) && viewSupplierWindow_supplierFirstNameAfterEdit.equalsIgnoreCase(supplierNewFirstName) && viewSupplierWindow_supplierLastNameAfterEdit.equalsIgnoreCase(supplierNewLastName))  {
+			Assert.assertTrue(true);
+		}
+		else {
+			Assert.assertTrue(false);
+		}
+		logger.info("==============Editing of Supplier done successfully===========");
+	}
+	public void deleteSupplier() throws InterruptedException{
+		suppliers_menu.click();
+		Thread.sleep(2000);
+		verifySupplierIsAdded();
+		Thread.sleep(2000);
+		logger.info("==============Navigating to Delete Supplier window===========");
+		supplierCardAssist_button.click();
+		Thread.sleep(2000);
+		supplierCardDelete_button.click();
+		String deleteSupplierDialogue_header=supplierAddViewEditDeleteWindow_title.getText();
+		System.out.println("Header title for Delete supplier dialogue window: "+deleteSupplierDialogue_header);
+		if(deleteSupplierDialogue_header.contains("Delete")) {
+			Assert.assertTrue(true);
+		}
+		else {
+			Assert.assertTrue(false);
+		}
+		deleteSupplierConfirmWindow_button.click();
+		Thread.sleep(2000);
+		driver.navigate().refresh();
+		//supplier_search_field.clear();
+		Thread.sleep(2000);
+		supplier_search_field.sendKeys(supplierEmail);
+		Thread.sleep(2000);
+		List<WebElement> supplierList=driver.findElements(By.xpath("//div[@class='card']/div[@class='tabNameList card-body']/div/div[1]"));
+		System.out.println("Number of suppliers after delete: "+supplierList.size());
+		Thread.sleep(2000);
+		if(supplierList.size()==0) {
+			Assert.assertTrue(true);
+		}
+		else {
+			Assert.assertTrue(false);
+		}
+		logger.info("==============Supplier is deleted successfully===========");
+	}
 
 	public void addSupplierLocation() throws InterruptedException, AWTException {
 		suppliers_menu.click();
 		Thread.sleep(2000);
 		verifySupplierIsAdded();
-		Thread.sleep(2000);
-		List<WebElement> supplierList=driver.findElements(By.xpath("//div[@class='card']/div[@class='tabNameList card-body']/div/div[1]"));
-		System.out.println("Number of suppliers: "+supplierList.size());
-		Thread.sleep(2000);
-		if(supplierList.size()==1) {
-			Assert.assertTrue(true);
-		}
-		else {
-			Assert.assertTrue(false);
-		}
+		Thread.sleep(1000);
 		supplierCard.click();
 		Thread.sleep(1000);
 		List<WebElement> allLocation=driver.findElements(By.xpath("//table[@id='twocolumnlayoutid']/tbody/tr"));
@@ -335,18 +472,8 @@ public class SuppliersPage extends TestBase {
 		suppliers_menu.click();
 		Thread.sleep(2000);
 		verifySupplierIsAdded();
-		Thread.sleep(2000);
-		List<WebElement> supplierList=driver.findElements(By.xpath("//div[@class='card']/div[@class='tabNameList card-body']/div/div[1]"));
-		System.out.println("Number of suppliers: "+supplierList.size());
-		Thread.sleep(2000);
-		if(supplierList.size()==1) {
-			Assert.assertTrue(true);
-		}
-		else {
-			Assert.assertTrue(false);
-		}
 		supplierCard.click();
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 		System.out.println("Supplier location email id while searching: "+locAdminEmail);
 		supplierLocSearch_field.sendKeys(locAdminEmail);
 		Thread.sleep(2000);
@@ -366,16 +493,7 @@ public class SuppliersPage extends TestBase {
 		suppliers_menu.click();
 		Thread.sleep(2000);
 		verifySupplierIsAdded();
-		Thread.sleep(2000);
-		List<WebElement> supplierList=driver.findElements(By.xpath("//div[@class='card']/div[@class='tabNameList card-body']/div/div[1]"));
-		System.out.println("Number of suppliers: "+supplierList.size());
-		Thread.sleep(2000);
-		if(supplierList.size()==1) {
-			Assert.assertTrue(true);
-		}
-		else {
-			Assert.assertTrue(false);
-		}
+		Thread.sleep(1000);
 		supplierCard.click();
 		Thread.sleep(2000);
 		Actions action=new Actions(driver);
@@ -395,16 +513,7 @@ public class SuppliersPage extends TestBase {
 		suppliers_menu.click();
 		Thread.sleep(2000);
 		verifySupplierIsAdded();
-		Thread.sleep(2000);
-		List<WebElement> supplierList=driver.findElements(By.xpath("//div[@class='card']/div[@class='tabNameList card-body']/div/div[1]"));
-		System.out.println("Number of suppliers: "+supplierList.size());
-		Thread.sleep(2000);
-		if(supplierList.size()==1) {
-			Assert.assertTrue(true);
-		}
-		else {
-			Assert.assertTrue(false);
-		}
+		Thread.sleep(1000);
 		supplierCard.click();
 		Thread.sleep(2000);
 		Actions action=new Actions(driver);
@@ -427,28 +536,47 @@ public class SuppliersPage extends TestBase {
 		supplierLoc_textfield.clear();
 		supplierLoc_textfield.sendKeys(editLocationValue);
 		supplierLocMinOrdAmt_textfield.clear();
+		Thread.sleep(1000);
 		supplierLocMinOrdAmt_textfield.sendKeys(editMinOrderAmtValue);
 		supplierLocFirstName_textfield.clear();
+		Thread.sleep(1000);
 		supplierLocFirstName_textfield.sendKeys(editLocationFirstNameValue);
 		supplierLocLastName_textfield.clear();
+		Thread.sleep(1000);
 		supplierLocLastName_textfield.sendKeys(editLocationLastNameValue);
 		supplierLocEmail_textfield.clear();
+		Thread.sleep(1000);
 		supplierLocEmail_textfield.sendKeys(locAdminEmail_edit);
 		supplierLocContact_textfield.clear();
+		Thread.sleep(1000);
 		supplierLocContact_textfield.click();
+		Thread.sleep(1000);
 		supplierLocContact_textfield.sendKeys(editMobilePhoneValue);
+		Thread.sleep(1000);
 		supplierLocOptionEmail_textfield.clear();
+		Thread.sleep(1000);
 		supplierLocOptionEmail_textfield.sendKeys(locAdminOEmail_edit);
+		Thread.sleep(1000);
 		supplierLocCountry_dd.sendKeys("Canada");
+		Thread.sleep(1000);
 		supplierLocAddress1_textfield.clear();
+		Thread.sleep(1000);
 		supplierLocAddress1_textfield.sendKeys(editAddressLine1Value);
+		Thread.sleep(1000);
 		supplierLocAddress2_textfield.clear();
+		Thread.sleep(1000);
 		supplierLocAddress2_textfield.sendKeys(editAddressLine2Value);
+		Thread.sleep(1000);
 		supplierLocCity_textfield.clear();
+		Thread.sleep(1000);
 		supplierLocCity_textfield.sendKeys(editCityValue);
+		Thread.sleep(1000);
 		supplierLocState_dd.sendKeys(editStateValue);
+		Thread.sleep(1000);
 		supplierLocZip_textfield.clear();
+		Thread.sleep(1000);
 		supplierLocZip_textfield.sendKeys(editZipValue);
+		Thread.sleep(1000);
 		supplierLocInactiveStatus_toggle.click();
 		Thread.sleep(1000);
 		
@@ -478,16 +606,7 @@ public class SuppliersPage extends TestBase {
 		suppliers_menu.click();
 		Thread.sleep(2000);
 		verifySupplierIsAdded();
-		Thread.sleep(2000);
-		List<WebElement> supplierList=driver.findElements(By.xpath("//div[@class='card']/div[@class='tabNameList card-body']/div/div[1]"));
-		System.out.println("Number of suppliers: "+supplierList.size());
-		Thread.sleep(2000);
-		if(supplierList.size()==1) {
-			Assert.assertTrue(true);
-		}
-		else {
-			Assert.assertTrue(false);
-		}
+		Thread.sleep(1000);
 		supplierCard.click();
 		Thread.sleep(2000);
 		Actions action=new Actions(driver);

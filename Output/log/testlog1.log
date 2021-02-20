@@ -40,3 +40,259 @@
 2021-02-20 02:25:53,718 [main] INFO com.hailo.qa.pages.SuppliersPage - ===================Navigating to delete Supplier Location window==================
 2021-02-20 02:27:08,665 [main] INFO com.hailo.qa.pages.SuppliersPage - ===================Supplier Location deleted successfully==================
 2021-02-20 02:27:08,666 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Delete supplier location test executon completed******************
+2021-02-20 10:45:52,454 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Add new supplier test executon started******************
+2021-02-20 10:45:52,464 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Navigating to Supplier page===========
+2021-02-20 10:45:57,991 [main] INFO com.hailo.qa.testcases.CustomersTest - ==============Entering Supplier details===========
+2021-02-20 10:46:14,232 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 10:46:20,932 [main] INFO com.hailo.qa.testcases.CustomersTest - ==============Supplier is added successfully===========
+2021-02-20 10:46:20,934 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Add new supplier test executon completed******************
+2021-02-20 10:46:41,302 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Search supplier test executon started******************
+2021-02-20 10:46:41,531 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 10:49:12,777 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Add new supplier test executon started******************
+2021-02-20 10:49:12,783 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Navigating to Supplier page===========
+2021-02-20 10:49:18,150 [main] INFO com.hailo.qa.testcases.CustomersTest - ==============Entering Supplier details===========
+2021-02-20 10:49:35,122 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 10:49:42,444 [main] INFO com.hailo.qa.testcases.CustomersTest - ==============Supplier is added successfully===========
+2021-02-20 10:49:42,445 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Add new supplier test executon completed******************
+2021-02-20 10:50:00,501 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Search supplier test executon started******************
+2021-02-20 10:50:29,786 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 10:52:44,144 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Add new supplier test executon started******************
+2021-02-20 10:52:44,150 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Navigating to Supplier page===========
+2021-02-20 10:52:49,588 [main] INFO com.hailo.qa.testcases.CustomersTest - ==============Entering Supplier details===========
+2021-02-20 10:53:05,709 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 10:53:12,355 [main] INFO com.hailo.qa.testcases.CustomersTest - ==============Supplier is added successfully===========
+2021-02-20 10:53:12,357 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Add new supplier test executon completed******************
+2021-02-20 10:53:43,731 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Search supplier test executon started******************
+2021-02-20 10:53:43,993 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 10:54:12,088 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Add supplier location test executon started******************
+2021-02-20 10:54:14,553 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 10:54:26,208 [main] INFO com.hailo.qa.pages.SuppliersPage - ===================Adding new Supplier Location==================
+2021-02-20 10:54:35,091 [main] INFO com.hailo.qa.pages.SuppliersPage - ===================Supplier Location is added succesfully==================
+2021-02-20 10:54:35,092 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Add supplier location test executon completed******************
+2021-02-20 10:54:52,520 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************View supplier location test executon started******************
+2021-02-20 10:54:52,637 [main] INFO com.hailo.qa.pages.SuppliersPage - ===================Navigating to view Supplier Location window==================
+2021-02-20 10:54:54,740 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 10:55:13,090 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************View supplier test executon completed******************
+2021-02-20 10:55:38,147 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Edit supplier location test executon started******************
+2021-02-20 10:55:38,422 [main] INFO com.hailo.qa.pages.SuppliersPage - ===================Navigating to edit Supplier Location window==================
+2021-02-20 10:55:40,686 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 10:56:09,335 [main] INFO com.hailo.qa.pages.SuppliersPage - ===================Navigating to view Supplier Location window==================
+2021-02-20 10:56:41,209 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Delete supplier location test executon started******************
+2021-02-20 10:56:43,686 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 10:56:58,790 [main] INFO com.hailo.qa.pages.SuppliersPage - ===================Navigating to delete Supplier Location window==================
+2021-02-20 10:57:01,261 [main] INFO com.hailo.qa.pages.SuppliersPage - ===================Supplier Location deleted successfully==================
+2021-02-20 10:57:01,261 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Delete supplier location test executon completed******************
+2021-02-20 11:04:25,817 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Add new supplier test executon started******************
+2021-02-20 11:04:25,823 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Navigating to Supplier page===========
+2021-02-20 11:04:31,369 [main] INFO com.hailo.qa.testcases.CustomersTest - ==============Entering Supplier details===========
+2021-02-20 11:04:48,250 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 11:04:54,246 [main] INFO com.hailo.qa.testcases.CustomersTest - ==============Supplier is added successfully===========
+2021-02-20 11:04:54,247 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Add new supplier test executon completed******************
+2021-02-20 11:05:37,267 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Search supplier test executon started******************
+2021-02-20 11:05:37,499 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 11:06:25,060 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Add supplier location test executon started******************
+2021-02-20 11:06:27,589 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 11:06:36,673 [main] INFO com.hailo.qa.pages.SuppliersPage - ===================Adding new Supplier Location==================
+2021-02-20 11:06:44,907 [main] INFO com.hailo.qa.pages.SuppliersPage - ===================Supplier Location is added succesfully==================
+2021-02-20 11:06:44,908 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Add supplier location test executon completed******************
+2021-02-20 11:07:09,718 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************View supplier location test executon started******************
+2021-02-20 11:07:09,964 [main] INFO com.hailo.qa.pages.SuppliersPage - ===================Navigating to view Supplier Location window==================
+2021-02-20 11:07:12,203 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 11:07:27,862 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************View supplier test executon completed******************
+2021-02-20 11:08:00,764 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Edit supplier location test executon started******************
+2021-02-20 11:08:01,022 [main] INFO com.hailo.qa.pages.SuppliersPage - ===================Navigating to edit Supplier Location window==================
+2021-02-20 11:08:03,353 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 11:08:50,223 [main] INFO com.hailo.qa.pages.SuppliersPage - ===================Navigating to view Supplier Location window==================
+2021-02-20 11:08:53,160 [main] INFO com.hailo.qa.pages.SuppliersPage - ===================Supplier Location updated successfully==================
+2021-02-20 11:08:53,161 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Edit supplier location test executon completed******************
+2021-02-20 11:09:20,007 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Delete supplier location test executon started******************
+2021-02-20 11:09:22,248 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 11:09:33,950 [main] INFO com.hailo.qa.pages.SuppliersPage - ===================Navigating to delete Supplier Location window==================
+2021-02-20 11:09:36,459 [main] INFO com.hailo.qa.pages.SuppliersPage - ===================Supplier Location deleted successfully==================
+2021-02-20 11:09:36,459 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Delete supplier location test executon completed******************
+2021-02-20 11:13:20,629 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Add new supplier test executon started******************
+2021-02-20 11:13:20,636 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Navigating to Supplier page===========
+2021-02-20 11:13:26,220 [main] INFO com.hailo.qa.testcases.CustomersTest - ==============Entering Supplier details===========
+2021-02-20 11:13:43,025 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 11:13:48,582 [main] INFO com.hailo.qa.testcases.CustomersTest - ==============Supplier is added successfully===========
+2021-02-20 11:13:48,584 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Add new supplier test executon completed******************
+2021-02-20 11:14:13,912 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Search supplier test executon started******************
+2021-02-20 11:14:14,148 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 11:14:43,779 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Add supplier location test executon started******************
+2021-02-20 11:14:46,313 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 11:18:22,556 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Add new supplier test executon started******************
+2021-02-20 11:18:22,569 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Navigating to Supplier page===========
+2021-02-20 11:18:27,877 [main] INFO com.hailo.qa.testcases.CustomersTest - ==============Entering Supplier details===========
+2021-02-20 11:18:44,565 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 11:18:50,465 [main] INFO com.hailo.qa.testcases.CustomersTest - ==============Supplier is added successfully===========
+2021-02-20 11:18:50,467 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Add new supplier test executon completed******************
+2021-02-20 11:19:21,009 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Search supplier test executon started******************
+2021-02-20 11:19:36,445 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 11:26:24,521 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Add new supplier test executon started******************
+2021-02-20 11:26:24,529 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Navigating to Supplier page===========
+2021-02-20 11:26:24,835 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Navigating to Add Supplier page===========
+2021-02-20 11:26:30,121 [main] INFO com.hailo.qa.testcases.CustomersTest - ==============Entering Supplier details===========
+2021-02-20 11:26:46,807 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 11:26:53,731 [main] INFO com.hailo.qa.testcases.CustomersTest - ==============Supplier is added successfully===========
+2021-02-20 11:26:53,732 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Add new supplier test executon completed******************
+2021-02-20 11:27:25,778 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Search supplier test executon started******************
+2021-02-20 11:27:26,015 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 11:27:33,774 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Search supplier test executon completed******************
+2021-02-20 11:27:59,510 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Add supplier location test executon started******************
+2021-02-20 11:28:02,078 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 11:28:11,101 [main] INFO com.hailo.qa.pages.SuppliersPage - ===================Adding new Supplier Location==================
+2021-02-20 11:28:19,694 [main] INFO com.hailo.qa.pages.SuppliersPage - ===================Supplier Location is added succesfully==================
+2021-02-20 11:28:19,694 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Add supplier location test executon completed******************
+2021-02-20 11:28:45,414 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************View supplier location test executon started******************
+2021-02-20 11:28:45,612 [main] INFO com.hailo.qa.pages.SuppliersPage - ===================Navigating to view Supplier Location window==================
+2021-02-20 11:28:47,908 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 11:29:03,393 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************View supplier test executon completed******************
+2021-02-20 11:29:26,931 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Edit supplier location test executon started******************
+2021-02-20 11:29:27,188 [main] INFO com.hailo.qa.pages.SuppliersPage - ===================Navigating to edit Supplier Location window==================
+2021-02-20 11:29:29,367 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 11:30:14,870 [main] INFO com.hailo.qa.pages.SuppliersPage - ===================Navigating to view Supplier Location window==================
+2021-02-20 11:30:17,698 [main] INFO com.hailo.qa.pages.SuppliersPage - ===================Supplier Location updated successfully==================
+2021-02-20 11:30:17,698 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Edit supplier location test executon completed******************
+2021-02-20 11:30:51,657 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Delete supplier location test executon started******************
+2021-02-20 11:30:54,089 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 11:31:06,268 [main] INFO com.hailo.qa.pages.SuppliersPage - ===================Navigating to delete Supplier Location window==================
+2021-02-20 11:31:08,706 [main] INFO com.hailo.qa.pages.SuppliersPage - ===================Supplier Location deleted successfully==================
+2021-02-20 11:31:08,707 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Delete supplier location test executon completed******************
+2021-02-20 12:04:13,273 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Add new supplier test executon started******************
+2021-02-20 12:04:13,277 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Navigating to Supplier page===========
+2021-02-20 12:04:13,367 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Navigating to Add Supplier page===========
+2021-02-20 12:04:18,581 [main] INFO com.hailo.qa.testcases.CustomersTest - ==============Entering Supplier details===========
+2021-02-20 12:04:34,559 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 12:04:41,007 [main] INFO com.hailo.qa.testcases.CustomersTest - ==============Supplier is added successfully===========
+2021-02-20 12:04:41,008 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Add new supplier test executon completed******************
+2021-02-20 12:05:25,254 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************View supplier test executon started******************
+2021-02-20 12:05:27,489 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 12:05:40,459 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************View supplier test executon completed******************
+2021-02-20 12:19:14,349 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Add new supplier test executon started******************
+2021-02-20 12:19:14,369 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Navigating to Supplier page===========
+2021-02-20 12:19:14,690 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Navigating to Add Supplier page===========
+2021-02-20 12:19:20,051 [main] INFO com.hailo.qa.testcases.CustomersTest - ==============Entering Supplier details===========
+2021-02-20 12:19:36,449 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 12:19:43,145 [main] INFO com.hailo.qa.testcases.CustomersTest - ==============Supplier is added successfully===========
+2021-02-20 12:19:43,146 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Add new supplier test executon completed******************
+2021-02-20 12:20:41,684 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************View supplier test executon started******************
+2021-02-20 12:20:44,205 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 12:20:52,973 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Navigating to view Supplier page===========
+2021-02-20 12:24:08,633 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Add new supplier test executon started******************
+2021-02-20 12:24:08,638 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Navigating to Supplier page===========
+2021-02-20 12:24:08,735 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Navigating to Add Supplier page===========
+2021-02-20 12:24:13,979 [main] INFO com.hailo.qa.testcases.CustomersTest - ==============Entering Supplier details===========
+2021-02-20 12:24:31,386 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 12:24:39,425 [main] INFO com.hailo.qa.testcases.CustomersTest - ==============Supplier is added successfully===========
+2021-02-20 12:24:39,426 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Add new supplier test executon completed******************
+2021-02-20 12:25:32,922 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************View supplier test executon started******************
+2021-02-20 12:25:35,421 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 12:25:44,082 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Navigating to view Supplier page===========
+2021-02-20 12:25:48,944 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************View supplier test executon completed******************
+2021-02-20 12:59:58,892 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Add new supplier test executon started******************
+2021-02-20 12:59:58,896 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Navigating to Supplier page===========
+2021-02-20 12:59:58,984 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Navigating to Add Supplier page===========
+2021-02-20 13:00:04,190 [main] INFO com.hailo.qa.testcases.CustomersTest - ==============Entering Supplier details===========
+2021-02-20 13:00:19,493 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 13:00:25,946 [main] INFO com.hailo.qa.testcases.CustomersTest - ==============Supplier is added successfully===========
+2021-02-20 13:00:25,947 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Add new supplier test executon completed******************
+2021-02-20 13:01:12,358 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Edit supplier test executon started******************
+2021-02-20 13:01:14,516 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 13:01:22,919 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Navigating to view Supplier page===========
+2021-02-20 13:03:59,288 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Add new supplier test executon started******************
+2021-02-20 13:03:59,295 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Navigating to Supplier page===========
+2021-02-20 13:03:59,476 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Navigating to Add Supplier page===========
+2021-02-20 13:04:04,755 [main] INFO com.hailo.qa.testcases.CustomersTest - ==============Entering Supplier details===========
+2021-02-20 13:04:20,030 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 13:04:26,387 [main] INFO com.hailo.qa.testcases.CustomersTest - ==============Supplier is added successfully===========
+2021-02-20 13:04:26,387 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Add new supplier test executon completed******************
+2021-02-20 13:05:13,130 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Edit supplier test executon started******************
+2021-02-20 13:05:15,440 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 13:05:23,996 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Navigating to view Supplier page===========
+2021-02-20 13:05:47,806 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Edit supplier test executon completed******************
+2021-02-20 13:24:51,828 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Add new supplier test executon started******************
+2021-02-20 13:24:51,834 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Navigating to Supplier page===========
+2021-02-20 13:24:52,014 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Navigating to Add Supplier page===========
+2021-02-20 13:24:57,268 [main] INFO com.hailo.qa.testcases.CustomersTest - ==============Entering Supplier details===========
+2021-02-20 13:25:12,539 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 13:25:19,133 [main] INFO com.hailo.qa.testcases.CustomersTest - ==============Supplier is added successfully===========
+2021-02-20 13:25:19,133 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Add new supplier test executon completed******************
+2021-02-20 13:26:02,712 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Delete supplier test executon started******************
+2021-02-20 13:26:05,044 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 13:26:13,659 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Navigating to Edit Supplier page===========
+2021-02-20 13:27:58,798 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Add new supplier test executon started******************
+2021-02-20 13:27:58,806 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Navigating to Supplier page===========
+2021-02-20 13:27:58,976 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Navigating to Add Supplier page===========
+2021-02-20 13:28:04,263 [main] INFO com.hailo.qa.testcases.CustomersTest - ==============Entering Supplier details===========
+2021-02-20 13:28:20,518 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 13:28:26,935 [main] INFO com.hailo.qa.testcases.CustomersTest - ==============Supplier is added successfully===========
+2021-02-20 13:28:26,935 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Add new supplier test executon completed******************
+2021-02-20 13:29:18,494 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Delete supplier test executon started******************
+2021-02-20 13:29:20,799 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 13:29:29,146 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Navigating to Delete Supplier window===========
+2021-02-20 13:32:31,282 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Add new supplier test executon started******************
+2021-02-20 13:32:31,285 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Navigating to Supplier page===========
+2021-02-20 13:32:31,383 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Navigating to Add Supplier page===========
+2021-02-20 13:32:36,529 [main] INFO com.hailo.qa.testcases.CustomersTest - ==============Entering Supplier details===========
+2021-02-20 13:32:53,141 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 13:32:59,752 [main] INFO com.hailo.qa.testcases.CustomersTest - ==============Supplier is added successfully===========
+2021-02-20 13:32:59,752 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Add new supplier test executon completed******************
+2021-02-20 13:33:47,862 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Delete supplier test executon started******************
+2021-02-20 13:33:50,164 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 13:33:58,737 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Navigating to Delete Supplier window===========
+2021-02-20 13:38:05,794 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Add new supplier test executon started******************
+2021-02-20 13:38:05,804 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Navigating to Supplier page===========
+2021-02-20 13:38:06,022 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Navigating to Add Supplier page===========
+2021-02-20 13:38:11,329 [main] INFO com.hailo.qa.testcases.CustomersTest - ==============Entering Supplier details===========
+2021-02-20 13:38:27,732 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 13:38:34,375 [main] INFO com.hailo.qa.testcases.CustomersTest - ==============Supplier is added successfully===========
+2021-02-20 13:38:34,376 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Add new supplier test executon completed******************
+2021-02-20 13:39:17,297 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Delete supplier test executon started******************
+2021-02-20 13:39:19,511 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 13:39:28,003 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Navigating to Delete Supplier window===========
+2021-02-20 13:39:49,016 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Supplier is deleted successfully===========
+2021-02-20 13:39:49,017 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Delete supplier test executon completed******************
+2021-02-20 13:43:42,424 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Add new supplier test executon started******************
+2021-02-20 13:43:42,431 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Navigating to Supplier page===========
+2021-02-20 13:43:42,520 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Navigating to Add Supplier page===========
+2021-02-20 13:43:47,713 [main] INFO com.hailo.qa.testcases.CustomersTest - ==============Entering Supplier details===========
+2021-02-20 13:44:03,337 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 13:44:09,815 [main] INFO com.hailo.qa.testcases.CustomersTest - ==============Supplier is added successfully===========
+2021-02-20 13:44:09,816 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Add new supplier test executon completed******************
+2021-02-20 13:44:55,286 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Search supplier test executon started******************
+2021-02-20 13:44:55,373 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 13:45:02,726 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Search supplier test executon completed******************
+2021-02-20 13:45:49,079 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************View supplier test executon started******************
+2021-02-20 13:45:51,248 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 13:45:59,765 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Navigating to view Supplier page===========
+2021-02-20 13:46:04,300 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************View supplier test executon completed******************
+2021-02-20 13:47:02,891 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Edit supplier test executon started******************
+2021-02-20 13:47:05,122 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 13:47:13,581 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Navigating to Edit Supplier page===========
+2021-02-20 13:47:38,206 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Editing of Supplier done successfully===========
+2021-02-20 13:47:38,207 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Edit supplier test executon completed******************
+2021-02-20 13:48:35,741 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Add supplier location test executon started******************
+2021-02-20 13:48:38,029 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 13:48:46,851 [main] INFO com.hailo.qa.pages.SuppliersPage - ===================Adding new Supplier Location==================
+2021-02-20 13:48:53,395 [main] INFO com.hailo.qa.pages.SuppliersPage - ===================Supplier Location is added succesfully==================
+2021-02-20 13:48:53,396 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Add supplier location test executon completed******************
+2021-02-20 13:49:45,824 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************View supplier location test executon started******************
+2021-02-20 13:49:45,893 [main] INFO com.hailo.qa.pages.SuppliersPage - ===================Navigating to view Supplier Location window==================
+2021-02-20 13:49:47,982 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 13:50:03,180 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************View supplier test executon completed******************
+2021-02-20 13:50:50,250 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Edit supplier location test executon started******************
+2021-02-20 13:50:50,324 [main] INFO com.hailo.qa.pages.SuppliersPage - ===================Navigating to edit Supplier Location window==================
+2021-02-20 13:50:52,412 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 13:51:34,666 [main] INFO com.hailo.qa.pages.SuppliersPage - ===================Navigating to view Supplier Location window==================
+2021-02-20 13:51:37,133 [main] INFO com.hailo.qa.pages.SuppliersPage - ===================Supplier Location updated successfully==================
+2021-02-20 13:51:37,133 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Edit supplier location test executon completed******************
+2021-02-20 13:52:33,407 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Delete supplier location test executon started******************
+2021-02-20 13:52:35,648 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 13:52:47,467 [main] INFO com.hailo.qa.pages.SuppliersPage - ===================Navigating to delete Supplier Location window==================
+2021-02-20 13:52:49,815 [main] INFO com.hailo.qa.pages.SuppliersPage - ===================Supplier Location deleted successfully==================
+2021-02-20 13:52:49,816 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Delete supplier location test executon completed******************
+2021-02-20 13:53:39,389 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Delete supplier test executon started******************
+2021-02-20 13:53:41,607 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Searching for Supplier===========
+2021-02-20 13:53:50,111 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Navigating to Delete Supplier window===========
+2021-02-20 13:54:10,952 [main] INFO com.hailo.qa.pages.SuppliersPage - ==============Supplier is deleted successfully===========
+2021-02-20 13:54:10,953 [main] INFO com.hailo.qa.testcases.CustomersTest - *******************Delete supplier test executon completed******************
