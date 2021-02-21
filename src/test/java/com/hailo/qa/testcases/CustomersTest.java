@@ -78,18 +78,18 @@ public class CustomersTest extends TestBase {
 		logger.info("********** Edit customer test execution completed**********");
 	}
 
-//	@Test(priority = 8)
-//	public void delCustomer() throws InterruptedException {
-//	logger.info("********** Login Page Logo Test execution started **********");
-//		dashboard=new Dashboard();
-//		Thread.sleep(2000);
-//		dashboard.clickonAdminMenu();
-//		Thread.sleep(1000);
-//		customers.delCustomer();
-//		Thread.sleep(2000);
-////		customers.adminSearch();
-//		Thread.sleep(2000);
-//	}
+	@Test(priority = 9)
+	public void delCustomer() throws InterruptedException {
+	logger.info("********** Login Page Logo Test execution started **********");
+		dashboard=new Dashboard();
+		Thread.sleep(2000);
+		dashboard.clickonAdminMenu();
+		Thread.sleep(1000);
+		customers.delCustomer();
+		Thread.sleep(2000);
+		customers.adminSearch();
+		Thread.sleep(2000);
+	}
 
 	@Test(priority = 4)
 	public void createNewStore() throws InterruptedException {
@@ -126,7 +126,7 @@ public class CustomersTest extends TestBase {
 
 	}
 	//Added in the train
-	@Test(priority=9)
+	@Test(priority=7)
 	public void addStoreUser() throws InterruptedException {
 		dashboard = new Dashboard();
 		Thread.sleep(1000);
@@ -135,17 +135,17 @@ public class CustomersTest extends TestBase {
 		customers.addStoreUser();
 	}
 	
-//	@Test(priority=7)
-//	public void deleteStore() throws InterruptedException {
-//		dashboard = new Dashboard();
-//		Thread.sleep(1000);
-//		dashboard.clickonAdminMenu();
-//		Thread.sleep(1000);
-//		customers.deleteStore();
-//		Thread.sleep(2000);
-////		customers.viewStore();
-//		Thread.sleep(1000);
-//	}
+	@Test(priority=8)
+	public void deleteStore() throws InterruptedException {
+		dashboard = new Dashboard();
+		Thread.sleep(1000);
+		dashboard.clickonAdminMenu();
+		Thread.sleep(1000);
+		customers.deleteStore();
+		Thread.sleep(2000);
+		//customers.viewStore();
+		Thread.sleep(1000);
+	}
 
 //	@Test(priority = 3)
 //	public void checkEmail() throws InterruptedException {
@@ -155,9 +155,28 @@ public class CustomersTest extends TestBase {
 //		driver.get("https://www.mailinator.com/");
 //		customers.checkEmail();
 //	}
+	@Test(priority = 10)
+	public void toggleCustomerStatus() throws InterruptedException {
+		logger.info("**********Toggle Customer status test execution started**********");
+		dashboard = new Dashboard();
+		logger.info("==========Dashboard==========");
+		Thread.sleep(1000);
+		dashboard.clickonAdminMenu();
+		Thread.sleep(1000);
+		customers.addCustomer();
+		logger.info("==========Added a customer ==========");
+		Thread.sleep(1000);
+		customers.addStore();
+		logger.info("==========Added a store ==========");
+		customers.toggleCustomerStatus();
+		logger.info("==========Changed customer status==========");
+		customers.verifyStoreStatus();
+		logger.info("**********Toggle Customer status test execution completed**********");		
+		
+	}
 
 	@AfterMethod
 	public void tearDown() {
-		driver.quit();
+		//driver.quit();
 	}
 }

@@ -1,8 +1,14 @@
 package com.hailo.qa.pages;
 
+import static org.testng.Assert.assertTrue;
+
+import java.util.List;
 import java.util.Random;
 
+import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
@@ -18,6 +24,8 @@ public class CustomersPage extends TestBase {
 	private static final String adminOptionalemail = RandomEmailGenerator.generateNewEmailID();
 	private static final String storeUserOemail = RandomEmailGenerator.generateNewEmailID();
 	private static final String storeUserEmail = RandomEmailGenerator.generateNewEmailID();
+	
+	private static Logger logger=Logger.getLogger(CustomersPage.class.getName());
 
 	// OR
 	@FindBy(xpath = "//a[@name='CUSTOMERS']")
@@ -110,7 +118,7 @@ public class CustomersPage extends TestBase {
 	@FindBy(xpath = "//input[@name='contact']")
 	WebElement adminContact_textbox;
 
-	@FindBy(xpath = "//span[text()='Active']")
+	@FindBy(xpath = "//span[text()='Inactive']")
 	WebElement adminStatus_button;
 
 	@FindBy(xpath = "//label[text()='Payment agreement signed']")
@@ -217,6 +225,28 @@ public class CustomersPage extends TestBase {
 	
 	@FindBy(xpath = "//div[@class='col-lg-10 col-md-10 col-sm-10 d-flex flex-column p-0']/span[2]")
 	WebElement Customer_EmailID_From_Tile;
+	
+	@FindBy(xpath = "//div[@class='tabNameList card-body']//div[@class='roleStatus ml-0 mt-2']")
+	WebElement customer_Status;
+	
+	@FindBy(xpath = "//span[@class='btn toggle-on btn-sm btn-success']")
+	WebElement customer_Status_active_toggle;
+	
+	@FindBy(xpath = "//span[@class='btn toggle-off btn-sm btn-danger']")
+	WebElement customer_Status_inactive_toggle;
+	
+	@FindBy(xpath = "//span[@title='Resend Email']")
+	WebElement customer_admin_edit_resend_email_icon;
+	
+	@FindBy(xpath = "//h4[@class='modal-title'][text()='Alert']")
+	WebElement customer_admin_edit_resend_email_window_header;
+	
+	@FindBy(xpath = "//button[@type='submit'][text()='Yes']")
+	WebElement customer_admin_edit_resend_email_yes_button;
+	
+	@FindBy(xpath = "//a[@title='Resend Email Link']/span")
+	WebElement customer_store_user_resend_email_icon;
+
 
 	// store user edit
 
@@ -245,8 +275,6 @@ public class CustomersPage extends TestBase {
 		customerName_textbox.sendKeys("mjbAutoCustomer");
 		adminFirstName_textbox.sendKeys("mjbAutoFirstName");
 		adminLastName_textbox.sendKeys("mjbAutoLastname");
-//		adminEmail_textbox.clear();
-//		adminEmail_textbox.click();
 		adminEmail_textbox.sendKeys(adminEmail);
 		System.out.println("This is admin email: " + adminEmail);
 		adminOptional_textbox.sendKeys(adminOptionalemail);
@@ -254,12 +282,14 @@ public class CustomersPage extends TestBase {
 		adminContact_textbox.click();
 		adminContact_textbox.sendKeys("9856321456");
 		Thread.sleep(2000);
-//		adminStatus_button.click();
+		adminStatus_button.click();
 		Thread.sleep(2000);
 		adminPayment_checkbox.click();
 		Thread.sleep(1000);
 		adminCreate_button.click();
 		Thread.sleep(3000);
+		driver.navigate().refresh();
+		verifyCustomerIsAdded();
 	}
 
 	public void adminSearch() throws InterruptedException {
@@ -302,6 +332,18 @@ public class CustomersPage extends TestBase {
 		Thread.sleep(1000);
 		customerUpdate_button.click();
 		Thread.sleep(3000);
+	}
+	public void navigateToEditCustomerPage() throws InterruptedException {
+		driver.navigate().refresh();
+		Thread.sleep(2000);
+		adminSearch_textbox.sendKeys(adminEmail);
+		verticalAssist_button.click();
+		Thread.sleep(2000);
+		customerEdit_dd.click();
+		Thread.sleep(2000);		
+		String edit_Customer_header = customerEditWin_title.getText();
+		System.out.println(edit_Customer_header);
+		Assert.assertTrue(edit_Customer_header.contains("Edit"), "Window title mismatch");
 	}
 
 	public void delCustomer() throws InterruptedException {
@@ -350,11 +392,43 @@ public class CustomersPage extends TestBase {
 		optionalemail_textbox.sendKeys(store_opt_email);
 		contact_textbox.click();
 		contact_textbox.sendKeys("519-378-7666");
-//		status_button.click();
+		status_button.click();
 		Thread.sleep(2000);
 		saveNnext_button.click();
 		Thread.sleep(2000);
+		
 
+	}
+	public void verifyCustomerIsAdded() throws InterruptedException {
+		logger.info("==============Searching for Customer===========");
+		//customers_menu.click();
+		Thread.sleep(1000);
+		adminSearch_textbox.sendKeys(adminEmail);
+		Thread.sleep(3000);
+		List<WebElement> customerList=driver.findElements(By.xpath("//div[@class='card']/div[@class='tabNameList card-body']/div/div[1]"));
+		System.out.println("Number of customers: "+customerList.size());
+		Thread.sleep(2000);
+		if(customerList.size()==1) {
+			Assert.assertTrue(true);
+		}
+		else {
+			Assert.assertTrue(false);
+		}
+		driver.navigate().refresh();
+	}
+	public void verifyStoreIsAdded() throws InterruptedException {
+		logger.info("==============Verifying store is added===========");
+		Thread.sleep(3000);
+		List<WebElement> storeList=driver.findElements(By.xpath("//tbody/tr"));
+		System.out.println("Number of stores: "+storeList.size());
+		Thread.sleep(2000);
+		if(storeList.size()==1) {
+			Assert.assertTrue(true);
+		}
+		else {
+			Assert.assertTrue(false);
+		}
+		
 	}
 
 	// Add store User
@@ -373,6 +447,7 @@ public class CustomersPage extends TestBase {
 		Thread.sleep(1000);
 		storeUserAdding_button.click();
 		Thread.sleep(1000);
+		verifyStoreIsAdded();
 	}
 	// View store user
 //		storeUserView_eye.click();
@@ -440,6 +515,148 @@ public class CustomersPage extends TestBase {
 		Thread.sleep(2000);
 		record.click();
 		Thread.sleep(3000);
+	}
+	public String getCustomerCurrentStatus() {
+		
+		return customer_Status.getText();
+	}
+	public void toggleCustomerStatus() throws InterruptedException {
+		customers_menu.click();
+		Thread.sleep(2000);
+		adminSearch_textbox.sendKeys(adminEmail);
+		Thread.sleep(2000);
+		verticalAssist_button.click();
+		Thread.sleep(2000);
+		customerEdit_dd.click();		
+		Assert.assertTrue(customerEditWin_title.getText().contains("Edit"),"You are not on customer edit window");
+		System.out.println("Current status of customer: "+getCustomerCurrentStatus());
+		logger.info("==============Changing Customer status===========");
+		if(getCustomerCurrentStatus().equalsIgnoreCase("Inactive")) {
+			customer_Status_inactive_toggle.click();
+		}
+		else {
+			customer_Status_active_toggle.click();
+		}
+		customerUpdate_button.click();
+		//driver.navigate().refresh();
+	}
+	public void verifyStoreStatus() throws InterruptedException {
+		adminSearch_textbox.clear();
+		Thread.sleep(2000);
+		adminSearch_textbox.sendKeys(adminEmail);
+		Thread.sleep(3000);
+		List<WebElement> customerList=driver.findElements(By.xpath("//div[@class='card']/div[@class='tabNameList card-body']/div/div[1]"));
+		System.out.println("Number of customers: "+customerList.size());
+		Thread.sleep(2000);
+		if(customerList.size()==1) {
+			Assert.assertTrue(true);
+		}
+		else {
+			Assert.assertTrue(false);
+		}
+		customer_card.click();
+		Thread.sleep(2000);
+		List<WebElement> storeStatus=driver.findElements(By.xpath("//thead/following-sibling::tbody/tr/td[5]"));
+		int totalStores=storeStatus.size();
+		System.out.println("Total stores are: "+totalStores);
+		for(WebElement status:storeStatus) {
+			String currentStoreStatus=status.getText();
+			System.out.println("Current status of the store: "+currentStoreStatus);
+			if(currentStoreStatus.equalsIgnoreCase(getCustomerCurrentStatus())) {
+				Assert.assertTrue(true);
+			}
+			else {
+				Assert.assertTrue(false);
+			}
+		}
+		driver.navigate().refresh();
+		toggleCustomerStatus();
+		adminSearch_textbox.clear();
+		Thread.sleep(2000);
+		adminSearch_textbox.sendKeys(adminEmail);
+		Thread.sleep(3000);
+		List<WebElement> customerList2=driver.findElements(By.xpath("//div[@class='card']/div[@class='tabNameList card-body']/div/div[1]"));
+		System.out.println("Number of customers: "+customerList2.size());
+		Thread.sleep(2000);
+		if(customerList2.size()==1) {
+			Assert.assertTrue(true);
+		}
+		else {
+			Assert.assertTrue(false);
+		}
+		customer_card.click();
+		Thread.sleep(2000);
+		List<WebElement> storeStatus_2=driver.findElements(By.xpath("//thead/following-sibling::tbody/tr/td[5]"));
+		int totalStores2=storeStatus_2.size();
+		System.out.println("Total stores are: "+totalStores2);
+		for(WebElement status:storeStatus_2) {
+			String currentStoreStatus=status.getText();
+			System.out.println("Current status of the store: "+currentStoreStatus);
+			if(currentStoreStatus.equalsIgnoreCase(getCustomerCurrentStatus())) {
+				Assert.assertTrue(true);
+			}
+			else {
+				Assert.assertTrue(false);
+			}
+		}
+	}
+	public void checkResendEmailFeatureForAdminUser() throws InterruptedException {
+		Assert.assertTrue(customer_admin_edit_resend_email_icon.isDisplayed());
+		customer_admin_edit_resend_email_icon.click();
+		Thread.sleep(1000);
+		Assert.assertTrue(customer_admin_edit_resend_email_window_header.isDisplayed());
+		Assert.assertTrue(customer_admin_edit_resend_email_yes_button.isDisplayed());
+		customer_admin_edit_resend_email_yes_button.click();
+	}
+	public void doPageRefresh() {
+		driver.navigate().refresh();
+	}
+	public void checkResendEmailFeatureForStoreUser() throws InterruptedException {
+		WebElement userRow=driver.findElement(By.xpath("//table[@id='userdetailsid']/tbody/tr/td[2]"));
+		Actions action=new Actions(driver);
+		action.moveToElement(userRow).build().perform();
+		customer_store_user_resend_email_icon.click();
+		Thread.sleep(1000);
+		Assert.assertTrue(customer_admin_edit_resend_email_window_header.isDisplayed());
+		Assert.assertTrue(customer_admin_edit_resend_email_yes_button.isDisplayed());
+		customer_admin_edit_resend_email_yes_button.click();
+		Thread.sleep(4000);
+	}
+	public void checkResendEmailFeatureForStoreAdmin() throws InterruptedException {
+		//doPageRefresh();
+		customers_menu.click();
+		adminSearch_textbox.sendKeys(adminEmail);
+		Thread.sleep(3000);
+		List<WebElement> customerList=driver.findElements(By.xpath("//div[@class='card']/div[@class='tabNameList card-body']/div/div[1]"));
+		System.out.println("Number of customers: "+customerList.size());
+		Thread.sleep(2000);
+		if(customerList.size()==1) {
+			Assert.assertTrue(true);
+		}
+		else {
+			Assert.assertTrue(false);
+		}
+		customer_card.click();
+		List<WebElement> stores=driver.findElements(By.xpath("//table/tbody/tr"));
+		int totalStores=stores.size();
+		if(totalStores>0) {
+			Assert.assertTrue(true);			
+		}
+		else {
+			Assert.assertTrue(false);
+		}
+		
+		WebElement storeRow=driver.findElement(By.xpath("//table/tbody/tr/td[2]"));
+		customerStoreEdit_button.click();
+		String editCustomerForm = customerStoreEdit_form_title.getText();
+		Assert.assertTrue(editCustomerForm.contains("Edit"), "Title doesn't match");
+		Thread.sleep(1000);
+		customer_admin_edit_resend_email_icon.click();
+		Thread.sleep(1000);
+		Assert.assertTrue(customer_admin_edit_resend_email_window_header.isDisplayed());
+		Assert.assertTrue(customer_admin_edit_resend_email_yes_button.isDisplayed());
+		customer_admin_edit_resend_email_yes_button.click();
+		Thread.sleep(4000);
 	}
 
 }

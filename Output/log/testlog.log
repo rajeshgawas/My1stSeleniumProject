@@ -296,3 +296,204 @@
 2021-02-20 13:53:50,111 - com.hailo.qa.pages.SuppliersPage -INFO - ==============Navigating to Delete Supplier window===========
 2021-02-20 13:54:10,952 - com.hailo.qa.pages.SuppliersPage -INFO - ==============Supplier is deleted successfully===========
 2021-02-20 13:54:10,953 - com.hailo.qa.testcases.CustomersTest -INFO - *******************Delete supplier test executon completed******************
+2021-02-20 16:07:09,288 - com.hailo.qa.testcases.CustomersTest -INFO - **********Customer Creation test execution started**********
+2021-02-20 16:07:09,296 - com.hailo.qa.testcases.CustomersTest -INFO - ==========Dashboard==========
+2021-02-20 16:07:10,530 - com.hailo.qa.testcases.CustomersTest -INFO - ==========Admin Menu==========
+2021-02-20 16:07:23,706 - com.hailo.qa.testcases.CustomersTest -INFO - ==========Added a customer ==========
+2021-02-20 16:07:24,707 - com.hailo.qa.testcases.CustomersTest -INFO - **********Customer Creation test execution completed**********
+2021-02-20 21:21:46,693 - com.hailo.qa.testcases.CustomerTest -INFO - **********Toggle Customer status test execution started**********
+2021-02-20 21:21:46,710 - com.hailo.qa.testcases.CustomerTest -INFO - ==========Dashboard==========
+2021-02-20 21:23:48,910 - com.hailo.qa.testcases.CustomerTest -INFO - **********Toggle Customer status test execution started**********
+2021-02-20 21:23:48,918 - com.hailo.qa.testcases.CustomerTest -INFO - ==========Dashboard==========
+2021-02-20 21:27:47,997 - com.hailo.qa.testcases.CustomerTest -INFO - **********Toggle Customer status test execution started**********
+2021-02-20 21:27:48,020 - com.hailo.qa.testcases.CustomerTest -INFO - ==========Dashboard==========
+2021-02-20 21:39:50,616 - com.hailo.qa.testcases.CustomersTest -INFO - **********Toggle Customer status test execution started**********
+2021-02-20 21:39:50,630 - com.hailo.qa.testcases.CustomersTest -INFO - ==========Dashboard==========
+2021-02-20 21:40:06,201 - com.hailo.qa.pages.CustomersPage -INFO - ==============Searching for Customer===========
+2021-02-20 21:40:12,893 - com.hailo.qa.testcases.CustomersTest -INFO - ==========Added a customer ==========
+2021-02-20 21:42:47,886 - com.hailo.qa.testcases.CustomersTest -INFO - **********Toggle Customer status test execution started**********
+2021-02-20 21:42:47,897 - com.hailo.qa.testcases.CustomersTest -INFO - ==========Dashboard==========
+2021-02-20 21:43:03,249 - com.hailo.qa.pages.CustomersPage -INFO - ==============Searching for Customer===========
+2021-02-20 21:43:12,040 - com.hailo.qa.testcases.CustomersTest -INFO - ==========Added a customer ==========
+2021-02-20 21:48:40,382 - com.hailo.qa.testcases.CustomersTest -INFO - **********Toggle Customer status test execution started**********
+2021-02-20 21:48:40,394 - com.hailo.qa.testcases.CustomersTest -INFO - ==========Dashboard==========
+2021-02-20 21:49:56,473 - com.hailo.qa.pages.CustomersPage -INFO - ==============Searching for Customer===========
+2021-02-20 21:50:38,168 - com.hailo.qa.pages.CustomersPage -INFO - ==============Searching for Customer===========
+2021-02-20 21:51:38,189 - com.hailo.qa.testcases.CustomersTest -INFO - ==========Added a customer ==========
+2021-02-20 21:59:33,391 - com.hailo.qa.testcases.CustomersTest -INFO - **********Toggle Customer status test execution started**********
+2021-02-20 21:59:33,405 - com.hailo.qa.testcases.CustomersTest -INFO - ==========Dashboard==========
+2021-02-20 21:59:49,370 - com.hailo.qa.pages.CustomersPage -INFO - ==============Searching for Customer===========
+2021-02-20 22:00:00,582 - com.hailo.qa.testcases.CustomersTest -INFO - ==========Added a customer ==========
+2021-02-20 22:01:44,767 - com.hailo.qa.testcases.CustomersTest -INFO - ==========Added a store ==========
+2021-02-20 22:04:59,670 - com.hailo.qa.testcases.CustomersTest -INFO - **********Toggle Customer status test execution started**********
+2021-02-20 22:04:59,686 - com.hailo.qa.testcases.CustomersTest -INFO - ==========Dashboard==========
+2021-02-20 22:05:15,373 - com.hailo.qa.pages.CustomersPage -INFO - ==============Searching for Customer===========
+2021-02-20 22:05:24,146 - com.hailo.qa.testcases.CustomersTest -INFO - ==========Added a customer ==========
+2021-02-20 22:05:44,230 - com.hailo.qa.testcases.CustomersTest -INFO - ==========Added a store ==========
+2021-02-20 22:07:24,255 - com.hailo.qa.testcases.CustomersTest -INFO - ==========Changed customer status==========
+2021-02-20 22:09:04,488 - com.hailo.qa.testcases.CustomersTest -INFO - **********Toggle Customer status test execution completed**********
+2021-02-20 22:14:17,094 - com.hailo.qa.testcases.CustomersTest -INFO - **********Toggle Customer status test execution started**********
+2021-02-20 22:14:17,107 - com.hailo.qa.testcases.CustomersTest -INFO - ==========Dashboard==========
+2021-02-20 22:14:33,402 - com.hailo.qa.pages.CustomersPage -INFO - ==============Searching for Customer===========
+2021-02-20 22:14:42,166 - com.hailo.qa.testcases.CustomersTest -INFO - ==========Added a customer ==========
+2021-02-20 22:15:02,983 - com.hailo.qa.testcases.CustomersTest -INFO - ==========Added a store ==========
+2021-02-20 22:15:10,644 - com.hailo.qa.testcases.CustomersTest -INFO - ==========Changed customer status==========
+2021-02-20 22:15:20,424 - com.hailo.qa.testcases.CustomersTest -INFO - **********Toggle Customer status test execution completed**********
+2021-02-20 22:18:48,215 - com.hailo.qa.testcases.CustomersTest -INFO - **********Toggle Customer status test execution started**********
+2021-02-20 22:18:48,230 - com.hailo.qa.testcases.CustomersTest -INFO - ==========Dashboard==========
+2021-02-20 22:19:04,643 - com.hailo.qa.pages.CustomersPage -INFO - ==============Searching for Customer===========
+2021-02-20 22:19:13,140 - com.hailo.qa.testcases.CustomersTest -INFO - ==========Added a customer ==========
+2021-02-20 22:19:31,011 - com.hailo.qa.testcases.CustomersTest -INFO - ==========Added a store ==========
+2021-02-20 22:19:38,482 - com.hailo.qa.testcases.CustomersTest -INFO - ==========Changed customer status==========
+2021-02-20 22:59:22,891 - com.hailo.qa.testcases.CustomersTest -INFO - **********Toggle Customer status test execution started**********
+2021-02-20 22:59:22,899 - com.hailo.qa.testcases.CustomersTest -INFO - ==========Dashboard==========
+2021-02-20 22:59:37,576 - com.hailo.qa.pages.CustomersPage -INFO - ==============Searching for Customer===========
+2021-02-20 23:01:39,209 - com.hailo.qa.testcases.CustomersTest -INFO - **********Toggle Customer status test execution started**********
+2021-02-20 23:01:39,213 - com.hailo.qa.testcases.CustomersTest -INFO - ==========Dashboard==========
+2021-02-20 23:01:53,780 - com.hailo.qa.pages.CustomersPage -INFO - ==============Searching for Customer===========
+2021-02-20 23:02:01,139 - com.hailo.qa.testcases.CustomersTest -INFO - ==========Added a customer ==========
+2021-02-20 23:02:17,227 - com.hailo.qa.testcases.CustomersTest -INFO - ==========Added a store ==========
+2021-02-20 23:02:24,498 - com.hailo.qa.testcases.CustomersTest -INFO - ==========Changed customer status==========
+2021-02-20 23:02:53,026 - com.hailo.qa.testcases.CustomersTest -INFO - **********Toggle Customer status test execution completed**********
+2021-02-21 13:52:23,296 - com.hailo.qa.testcases.CustomersTest -INFO - **********Customer Creation test execution started**********
+2021-02-21 13:52:23,323 - com.hailo.qa.testcases.CustomersTest -INFO - ==========Dashboard==========
+2021-02-21 13:52:24,574 - com.hailo.qa.testcases.CustomersTest -INFO - ==========Admin Menu==========
+2021-02-21 13:52:38,941 - com.hailo.qa.pages.CustomersPage -INFO - ==============Searching for Customer===========
+2021-02-21 13:52:47,756 - com.hailo.qa.testcases.CustomersTest -INFO - ==========Added a customer ==========
+2021-02-21 13:52:48,758 - com.hailo.qa.testcases.CustomersTest -INFO - **********Customer Creation test execution completed**********
+2021-02-21 13:53:36,791 - com.hailo.qa.testcases.CustomersTest -INFO - ********** Search Customer Test execution started **********
+2021-02-21 13:53:53,619 - com.hailo.qa.testcases.CustomersTest -INFO - ********** Search Customer test execution completed**********
+2021-02-21 13:54:49,100 - com.hailo.qa.testcases.CustomersTest -INFO - ********** Edit customer Test execution started **********
+2021-02-21 13:55:08,468 - com.hailo.qa.testcases.CustomersTest -INFO - ********** Edit customer test execution completed**********
+2021-02-21 13:55:52,767 - com.hailo.qa.testcases.CustomersTest -INFO - ********** Create Store Test execution started **********
+2021-02-21 13:56:15,414 - com.hailo.qa.testcases.CustomersTest -INFO - ********** Create Store test execution completed**********
+2021-02-21 13:57:02,093 - com.hailo.qa.testcases.CustomersTest -INFO - ********** View Store Test execution Started **********
+2021-02-21 14:01:40,871 - com.hailo.qa.testcases.CustomersTest -INFO - ********** Login Page Logo Test execution started **********
+2021-02-21 14:02:32,617 - com.hailo.qa.testcases.CustomersTest -INFO - **********Toggle Customer status test execution started**********
+2021-02-21 14:02:32,622 - com.hailo.qa.testcases.CustomersTest -INFO - ==========Dashboard==========
+2021-02-21 14:02:48,396 - com.hailo.qa.pages.CustomersPage -INFO - ==============Searching for Customer===========
+2021-02-21 14:02:57,606 - com.hailo.qa.testcases.CustomersTest -INFO - ==========Added a customer ==========
+2021-02-21 14:03:17,438 - com.hailo.qa.testcases.CustomersTest -INFO - ==========Added a store ==========
+2021-02-21 14:03:24,963 - com.hailo.qa.pages.CustomersPage -INFO - ==============Changing Customer status===========
+2021-02-21 14:03:25,432 - com.hailo.qa.testcases.CustomersTest -INFO - ==========Changed customer status==========
+2021-02-21 19:49:30,120 - com.hailo.qa.testcases.AdminTest -INFO - ********Resend Email TC for Customer, Store Admin, User is started*****************
+2021-02-21 19:49:30,129 - com.hailo.qa.testcases.AdminTest -INFO - ==========Dashboard==========
+2021-02-21 19:49:44,560 - com.hailo.qa.pages.CustomersPage -INFO - ==============Searching for Customer===========
+2021-02-21 19:49:51,573 - com.hailo.qa.testcases.AdminTest -INFO - ==========Added a customer ==========
+2021-02-21 19:49:51,577 - com.hailo.qa.testcases.AdminTest -INFO - ==========Navigating to Edit customer page ==========
+2021-02-21 19:53:22,625 - com.hailo.qa.testcases.AdminTest -INFO - ********Resend Email TC for Customer, Store Admin, User is started*****************
+2021-02-21 19:53:22,630 - com.hailo.qa.testcases.AdminTest -INFO - ==========Dashboard==========
+2021-02-21 19:53:36,911 - com.hailo.qa.pages.CustomersPage -INFO - ==============Searching for Customer===========
+2021-02-21 19:53:44,030 - com.hailo.qa.testcases.AdminTest -INFO - ==========Added a customer ==========
+2021-02-21 19:53:44,032 - com.hailo.qa.testcases.AdminTest -INFO - ==========Navigating to Edit customer page ==========
+2021-02-21 19:53:53,907 - com.hailo.qa.testcases.AdminTest -INFO - ==========Performing resend email action ==========
+2021-02-21 20:04:47,334 - com.hailo.qa.testcases.AdminTest -INFO - ********Resend Email TC for Customer, Store Admin, User is started*****************
+2021-02-21 20:04:47,340 - com.hailo.qa.testcases.AdminTest -INFO - ==========Dashboard==========
+2021-02-21 20:05:01,944 - com.hailo.qa.pages.CustomersPage -INFO - ==============Searching for Customer===========
+2021-02-21 20:05:09,088 - com.hailo.qa.testcases.AdminTest -INFO - ==========Added a customer ==========
+2021-02-21 20:05:09,089 - com.hailo.qa.testcases.AdminTest -INFO - ==========Navigating to Edit customer page ==========
+2021-02-21 20:05:19,069 - com.hailo.qa.testcases.AdminTest -INFO - ==========Performing resend email action ==========
+2021-02-21 20:12:51,213 - com.hailo.qa.testcases.AdminTest -INFO - ********Resend Email TC for Customer, Store Admin, User is started*****************
+2021-02-21 20:12:51,217 - com.hailo.qa.testcases.AdminTest -INFO - ==========Dashboard==========
+2021-02-21 20:13:05,641 - com.hailo.qa.pages.CustomersPage -INFO - ==============Searching for Customer===========
+2021-02-21 20:13:12,655 - com.hailo.qa.testcases.AdminTest -INFO - ==========Added a customer ==========
+2021-02-21 20:13:12,656 - com.hailo.qa.testcases.AdminTest -INFO - ==========Navigating to Edit customer page ==========
+2021-02-21 20:13:22,496 - com.hailo.qa.testcases.AdminTest -INFO - ==========Performing resend email action ==========
+2021-02-21 21:11:09,452 - com.hailo.qa.testcases.AdminTest -INFO - ********Resend Email TC for Customer, Store Admin, User is started*****************
+2021-02-21 21:11:09,457 - com.hailo.qa.testcases.AdminTest -INFO - ==========Dashboard==========
+2021-02-21 21:11:23,960 - com.hailo.qa.pages.CustomersPage -INFO - ==============Searching for Customer===========
+2021-02-21 21:11:31,011 - com.hailo.qa.testcases.AdminTest -INFO - ==========Added a customer ==========
+2021-02-21 21:11:31,012 - com.hailo.qa.testcases.AdminTest -INFO - ==========Navigating to Edit customer page ==========
+2021-02-21 21:11:40,936 - com.hailo.qa.testcases.AdminTest -INFO - ==========Performing resend email action ==========
+2021-02-21 21:11:58,133 - com.hailo.qa.testcases.AdminTest -INFO - ==========Added a store ==========
+2021-02-21 21:12:23,653 - com.hailo.qa.pages.CustomersPage -INFO - ==============Verifying store is added===========
+2021-02-21 21:12:45,823 - com.hailo.qa.testcases.AdminTest -INFO - ==========Added a store user ==========
+2021-02-21 21:16:23,850 - com.hailo.qa.testcases.AdminTest -INFO - ********Resend Email TC for Customer, Store Admin, User is started*****************
+2021-02-21 21:16:23,855 - com.hailo.qa.testcases.AdminTest -INFO - ==========Dashboard==========
+2021-02-21 21:16:38,391 - com.hailo.qa.pages.CustomersPage -INFO - ==============Searching for Customer===========
+2021-02-21 21:16:45,638 - com.hailo.qa.testcases.AdminTest -INFO - ==========Added a customer ==========
+2021-02-21 21:16:45,640 - com.hailo.qa.testcases.AdminTest -INFO - ==========Navigating to Edit customer page ==========
+2021-02-21 21:16:55,631 - com.hailo.qa.testcases.AdminTest -INFO - ==========Performing resend email action ==========
+2021-02-21 21:17:12,935 - com.hailo.qa.testcases.AdminTest -INFO - ==========Added a store ==========
+2021-02-21 21:17:20,137 - com.hailo.qa.pages.CustomersPage -INFO - ==============Verifying store is added===========
+2021-02-21 21:17:25,195 - com.hailo.qa.testcases.AdminTest -INFO - ==========Added a store user ==========
+2021-02-21 21:19:34,260 - com.hailo.qa.testcases.AdminTest -INFO - ********Resend Email TC for Customer, Store Admin, User is started*****************
+2021-02-21 21:19:34,265 - com.hailo.qa.testcases.AdminTest -INFO - ==========Dashboard==========
+2021-02-21 21:19:48,827 - com.hailo.qa.pages.CustomersPage -INFO - ==============Searching for Customer===========
+2021-02-21 21:19:56,234 - com.hailo.qa.testcases.AdminTest -INFO - ==========Added a customer ==========
+2021-02-21 21:19:56,239 - com.hailo.qa.testcases.AdminTest -INFO - ==========Navigating to Edit customer page ==========
+2021-02-21 21:20:06,116 - com.hailo.qa.testcases.AdminTest -INFO - ==========Performing resend email action ==========
+2021-02-21 21:20:22,823 - com.hailo.qa.testcases.AdminTest -INFO - ==========Added a store ==========
+2021-02-21 21:20:30,412 - com.hailo.qa.pages.CustomersPage -INFO - ==============Verifying store is added===========
+2021-02-21 21:20:35,470 - com.hailo.qa.testcases.AdminTest -INFO - ==========Added a store user ==========
+2021-02-21 21:23:36,600 - com.hailo.qa.testcases.AdminTest -INFO - ********Resend Email TC for Customer, Store Admin, User is started*****************
+2021-02-21 21:23:36,604 - com.hailo.qa.testcases.AdminTest -INFO - ==========Dashboard==========
+2021-02-21 21:23:51,155 - com.hailo.qa.pages.CustomersPage -INFO - ==============Searching for Customer===========
+2021-02-21 21:23:58,264 - com.hailo.qa.testcases.AdminTest -INFO - ==========Added a customer ==========
+2021-02-21 21:23:58,266 - com.hailo.qa.testcases.AdminTest -INFO - ==========Navigating to Edit customer page ==========
+2021-02-21 21:24:08,206 - com.hailo.qa.testcases.AdminTest -INFO - ==========Performing resend email action ==========
+2021-02-21 21:24:25,321 - com.hailo.qa.testcases.AdminTest -INFO - ==========Added a store ==========
+2021-02-21 21:24:33,269 - com.hailo.qa.pages.CustomersPage -INFO - ==============Verifying store is added===========
+2021-02-21 21:24:38,324 - com.hailo.qa.testcases.AdminTest -INFO - ==========Added a store user ==========
+2021-02-21 21:24:39,922 - com.hailo.qa.testcases.AdminTest -INFO - ==========Resend email is done for store user ==========
+2021-02-21 21:37:45,123 - com.hailo.qa.testcases.AdminTest -INFO - ********Resend Email TC for Customer, Store Admin, User is started*****************
+2021-02-21 21:37:45,129 - com.hailo.qa.testcases.AdminTest -INFO - ==========Dashboard==========
+2021-02-21 21:37:59,527 - com.hailo.qa.pages.CustomersPage -INFO - ==============Searching for Customer===========
+2021-02-21 21:38:06,918 - com.hailo.qa.testcases.AdminTest -INFO - ==========Added a customer ==========
+2021-02-21 21:38:06,921 - com.hailo.qa.testcases.AdminTest -INFO - ==========Navigating to Edit customer page ==========
+2021-02-21 21:38:16,853 - com.hailo.qa.testcases.AdminTest -INFO - ==========Performing resend email action ==========
+2021-02-21 21:38:33,746 - com.hailo.qa.testcases.AdminTest -INFO - ==========Added a store ==========
+2021-02-21 21:38:41,319 - com.hailo.qa.pages.CustomersPage -INFO - ==============Verifying store is added===========
+2021-02-21 21:38:46,374 - com.hailo.qa.testcases.AdminTest -INFO - ==========Added a store user ==========
+2021-02-21 21:38:52,988 - com.hailo.qa.testcases.AdminTest -INFO - ==========Resend email is done for store user ==========
+2021-02-21 22:22:00,448 - com.hailo.qa.testcases.AdminTest -INFO - ********Resend Email TC for Customer, Store Admin, User is started*****************
+2021-02-21 22:22:00,452 - com.hailo.qa.testcases.AdminTest -INFO - ==========Dashboard==========
+2021-02-21 22:22:14,862 - com.hailo.qa.pages.CustomersPage -INFO - ==============Searching for Customer===========
+2021-02-21 22:22:21,961 - com.hailo.qa.testcases.AdminTest -INFO - ==========Added a customer ==========
+2021-02-21 22:22:21,963 - com.hailo.qa.testcases.AdminTest -INFO - ==========Navigating to Edit customer page ==========
+2021-02-21 22:22:32,029 - com.hailo.qa.testcases.AdminTest -INFO - ==========Performing resend email action ==========
+2021-02-21 22:22:49,107 - com.hailo.qa.testcases.AdminTest -INFO - ==========Added a store ==========
+2021-02-21 22:22:56,128 - com.hailo.qa.pages.CustomersPage -INFO - ==============Verifying store is added===========
+2021-02-21 22:23:01,184 - com.hailo.qa.testcases.AdminTest -INFO - ==========Added a store user ==========
+2021-02-21 22:23:06,759 - com.hailo.qa.testcases.AdminTest -INFO - ==========Resend email is done for store user ==========
+2021-02-21 22:26:15,133 - com.hailo.qa.testcases.AdminTest -INFO - ********Resend Email TC for Customer, Store Admin, User is started*****************
+2021-02-21 22:26:15,144 - com.hailo.qa.testcases.AdminTest -INFO - ==========Dashboard==========
+2021-02-21 22:26:29,338 - com.hailo.qa.pages.CustomersPage -INFO - ==============Searching for Customer===========
+2021-02-21 22:26:36,404 - com.hailo.qa.testcases.AdminTest -INFO - ==========Added a customer ==========
+2021-02-21 22:26:36,408 - com.hailo.qa.testcases.AdminTest -INFO - ==========Navigating to Edit customer page ==========
+2021-02-21 22:26:46,415 - com.hailo.qa.testcases.AdminTest -INFO - ==========Performing resend email action ==========
+2021-02-21 22:27:03,215 - com.hailo.qa.testcases.AdminTest -INFO - ==========Added a store ==========
+2021-02-21 22:27:10,363 - com.hailo.qa.pages.CustomersPage -INFO - ==============Verifying store is added===========
+2021-02-21 22:27:15,419 - com.hailo.qa.testcases.AdminTest -INFO - ==========Added a store user ==========
+2021-02-21 22:28:05,053 - com.hailo.qa.testcases.AdminTest -INFO - ==========Resend email is done for store user ==========
+2021-02-21 22:33:01,047 - com.hailo.qa.testcases.AdminTest -INFO - ********Resend Email TC for Customer, Store Admin, User is started*****************
+2021-02-21 22:33:01,052 - com.hailo.qa.testcases.AdminTest -INFO - ==========Dashboard==========
+2021-02-21 22:33:15,447 - com.hailo.qa.pages.CustomersPage -INFO - ==============Searching for Customer===========
+2021-02-21 22:33:22,468 - com.hailo.qa.testcases.AdminTest -INFO - ==========Added a customer ==========
+2021-02-21 22:33:22,469 - com.hailo.qa.testcases.AdminTest -INFO - ==========Navigating to Edit customer page ==========
+2021-02-21 22:33:32,318 - com.hailo.qa.testcases.AdminTest -INFO - ==========Performing resend email action ==========
+2021-02-21 22:33:49,360 - com.hailo.qa.testcases.AdminTest -INFO - ==========Added a store ==========
+2021-02-21 22:33:57,209 - com.hailo.qa.pages.CustomersPage -INFO - ==============Verifying store is added===========
+2021-02-21 22:34:02,264 - com.hailo.qa.testcases.AdminTest -INFO - ==========Added a store user ==========
+2021-02-21 22:34:07,764 - com.hailo.qa.testcases.AdminTest -INFO - ==========Resend email is done for store user ==========
+2021-02-21 22:37:13,858 - com.hailo.qa.testcases.AdminTest -INFO - ********Resend Email TC for Customer, Store Admin, User is started*****************
+2021-02-21 22:37:13,862 - com.hailo.qa.testcases.AdminTest -INFO - ==========Dashboard==========
+2021-02-21 22:37:28,331 - com.hailo.qa.pages.CustomersPage -INFO - ==============Searching for Customer===========
+2021-02-21 22:37:35,319 - com.hailo.qa.testcases.AdminTest -INFO - ==========Added a customer ==========
+2021-02-21 22:37:35,320 - com.hailo.qa.testcases.AdminTest -INFO - ==========Navigating to Edit customer page ==========
+2021-02-21 22:37:45,771 - com.hailo.qa.testcases.AdminTest -INFO - ==========Performing resend email action ==========
+2021-02-21 22:38:03,003 - com.hailo.qa.testcases.AdminTest -INFO - ==========Added a store ==========
+2021-02-21 22:38:10,388 - com.hailo.qa.pages.CustomersPage -INFO - ==============Verifying store is added===========
+2021-02-21 22:38:15,441 - com.hailo.qa.testcases.AdminTest -INFO - ==========Added a store user ==========
+2021-02-21 22:38:20,922 - com.hailo.qa.testcases.AdminTest -INFO - ==========Resend email is done for store user ==========
+2021-02-21 22:40:48,870 - com.hailo.qa.testcases.AdminTest -INFO - ********Resend Email TC for Customer, Store Admin, User is started*****************
+2021-02-21 22:40:48,875 - com.hailo.qa.testcases.AdminTest -INFO - ==========Dashboard==========
+2021-02-21 22:41:03,356 - com.hailo.qa.pages.CustomersPage -INFO - ==============Searching for Customer===========
+2021-02-21 22:41:10,327 - com.hailo.qa.testcases.AdminTest -INFO - ==========Added a customer ==========
+2021-02-21 22:41:10,327 - com.hailo.qa.testcases.AdminTest -INFO - ==========Navigating to Edit customer page ==========
+2021-02-21 22:41:20,159 - com.hailo.qa.testcases.AdminTest -INFO - ==========Performing resend email action ==========
+2021-02-21 22:41:37,262 - com.hailo.qa.testcases.AdminTest -INFO - ==========Added a store ==========
+2021-02-21 22:41:44,689 - com.hailo.qa.pages.CustomersPage -INFO - ==============Verifying store is added===========
+2021-02-21 22:41:49,746 - com.hailo.qa.testcases.AdminTest -INFO - ==========Added a store user ==========
+2021-02-21 22:41:55,357 - com.hailo.qa.testcases.AdminTest -INFO - ==========Resend email is done for store user ==========
+2021-02-21 22:48:06,805 - com.hailo.qa.testcases.AdminTest -INFO - ********Resend Email TC for Customer, Store Admin, User is started*****************

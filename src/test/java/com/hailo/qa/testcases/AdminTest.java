@@ -24,6 +24,7 @@ public class AdminTest extends TestBase {
 	LoginPage loginPage;
 	Dashboard dashboard;
 	AdminPage admin;
+	CustomersPage customers;
 	
 	private static Logger logger=Logger.getLogger(AdminTest.class.getName());
 
@@ -35,6 +36,7 @@ public class AdminTest extends TestBase {
 			loginPage = new LoginPage();
 			loginPage.loginWithAdmin(prop.getProperty("admin_email"), prop.getProperty("admin_password"));
 			admin = new AdminPage();
+			customers = new CustomersPage();
 //		}else
 			
 //		{
@@ -44,8 +46,8 @@ public class AdminTest extends TestBase {
 
 	}
 
-	@Test(priority = 1)
-	public void toggleUserStatus() throws InterruptedException {
+	//@Test(priority = 1)
+	public void toggleUserStatusTest() throws InterruptedException {
 		
 		logger.info("********Admin can Toggle user satus TC started*****************");
 		logger.info("========Login with Admin User==============");
@@ -71,8 +73,31 @@ public class AdminTest extends TestBase {
 		admin.verifyStatusAfterToggle();
 		logger.info("********TC execution completed*****************");
 	}
-
-
+	@Test(priority=2)
+	public void verifyResendEmailFunctionalityForCustomerStoresAndUsers() throws InterruptedException {
+		logger.info("********Resend Email TC for Customer, Store Admin, User is started*****************");
+		dashboard = new Dashboard();
+		logger.info("==========Dashboard==========");
+		Thread.sleep(1000);
+		dashboard.clickonAdminMenu();
+		Thread.sleep(1000);
+		customers.addCustomer();
+		logger.info("==========Added a customer ==========");
+		logger.info("==========Navigating to Edit customer page ==========");
+		customers.navigateToEditCustomerPage();
+		logger.info("==========Performing resend email action ==========");
+		customers.checkResendEmailFeatureForAdminUser();
+		customers.doPageRefresh();
+		customers.addStore();
+		logger.info("==========Added a store ==========");
+		customers.addStoreUser();
+		logger.info("==========Added a store user ==========");
+		customers.checkResendEmailFeatureForStoreUser();
+		logger.info("==========Resend email is done for store user ==========");
+		customers.checkResendEmailFeatureForStoreAdmin();
+		logger.info("==========Resend email is done for store Admin ==========");
+		logger.info("********Resend Email TC for Customer, Store Admin, User is completed*****************");
+	}
 
 	@AfterMethod
 	public void tearDown() {

@@ -51,6 +51,7 @@ public class CustomerPage extends TestBase {
 	@FindBy(xpath = "//button[@type='submit'][text()='Update & Next']")
 	WebElement update_store_button;
 	
+
 	
 	String store_currentStatus="";
 

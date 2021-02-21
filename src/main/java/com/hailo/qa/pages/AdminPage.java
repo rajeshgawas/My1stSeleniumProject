@@ -87,5 +87,6 @@ public class AdminPage extends TestBase {
 			Assert.assertTrue(user_status_after_toggle.equals("Active"));
 		}
 	}
+	
 
 }

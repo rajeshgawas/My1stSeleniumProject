@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.hailo.qa.testcases.AddSupplierTest">
+      <class name="com.hailo.qa.testcases.AdminTest">
         <methods>
           <include name="setUp"/>
-          <include name="deleteSupplierTest"/>
           <include name="tearDown"/>
+          <include name="verifyResendEmailFunctionalityForCustomerStoresAndUsers"/>
         </methods>
-      </class> <!-- com.hailo.qa.testcases.AddSupplierTest -->
+      </class> <!-- com.hailo.qa.testcases.AdminTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
